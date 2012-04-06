@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SafeCityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SafeCityAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SafeCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SafeCityViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SafeCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SafeCityViewController.m */; };
+		5200A40B132AE5BD005BEA08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A40A132AE5BD005BEA08 /* CFNetwork.framework */; };
+		5200A40D132AE5BD005BEA08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A40C132AE5BD005BEA08 /* CoreData.framework */; };
+		5200A40F132AE5BD005BEA08 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A40E132AE5BD005BEA08 /* MobileCoreServices.framework */; };
+		5200A411132AE5BD005BEA08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A410132AE5BD005BEA08 /* SystemConfiguration.framework */; };
+		5200A421132BF76F005BEA08 /* FindBairroByLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5200A420132BF76F005BEA08 /* FindBairroByLocation.m */; };
+		5200A426132BF854005BEA08 /* Bairro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5200A425132BF854005BEA08 /* Bairro.m */; };
+		52043667147066A4007D310D /* background-tela-RJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 52043665147066A4007D310D /* background-tela-RJ.png */; };
+		52043668147066A4007D310D /* background-tela-SP.png in Resources */ = {isa = PBXBuildFile; fileRef = 52043666147066A4007D310D /* background-tela-SP.png */; };
+		5204366B147132B9007D310D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		5204366C147132B9007D310D /* SafeCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SafeCityViewController.xib */; };
+		5204366D147132B9007D310D /* DicaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522A90771371D7CB00C38D99 /* DicaDetailViewController.xib */; };
+		5204366E147132B9007D310D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522A90CF1371EDA700C38D99 /* SettingsViewController.xib */; };
+		5204366F147132B9007D310D /* BairroTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5228810F137333F800414DC8 /* BairroTableViewController.xib */; };
+		52043670147132B9007D310D /* ContatoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522881C61373514500414DC8 /* ContatoDetailViewController.xib */; };
+		52043671147132B9007D310D /* EmergencyCallSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52288203137358CF00414DC8 /* EmergencyCallSettingsViewController.xib */; };
+		52043672147132B9007D310D /* EmergencyTextSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5228821813735D8A00414DC8 /* EmergencyTextSettingsViewController.xib */; };
+		52043673147132B9007D310D /* PoliciaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5286A4D413966F1D006AEA02 /* PoliciaDetailViewController.xib */; };
+		52043674147132B9007D310D /* localizando-SP.png in Resources */ = {isa = PBXBuildFile; fileRef = 5214797213C4983A0092A075 /* localizando-SP.png */; };
+		52043675147132B9007D310D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5214797A13C498F20092A075 /* default.png */; };
+		52043676147132B9007D310D /* disclaimer.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479E513C4A9140092A075 /* disclaimer.png */; };
+		52043677147132B9007D310D /* configuracoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479E913C4A9BE0092A075 /* configuracoes.png */; };
+		52043678147132B9007D310D /* policia.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479F513C4ABF00092A075 /* policia.png */; };
+		52043679147132B9007D310D /* hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479FD13C4AD430092A075 /* hospital.png */; };
+		5204367A147132B9007D310D /* personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A0113C4AE5A0092A075 /* personal.png */; };
+		5204367B147132B9007D310D /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A5413C4E1A90092A075 /* icone.png */; };
+		5204367C147132B9007D310D /* logo-interno.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A5813C4E4E30092A075 /* logo-interno.png */; };
+		5204367D147132B9007D310D /* dicas-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A5C13C4F4B30092A075 /* dicas-icon.png */; };
+		5204367E147132B9007D310D /* alerta-especial.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A6C13C4F8250092A075 /* alerta-especial.png */; };
+		5204367F147132B9007D310D /* emergencia.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A6E13C4F8350092A075 /* emergencia.png */; };
+		52043680147132B9007D310D /* meu-destino.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A6F13C4F8350092A075 /* meu-destino.png */; };
+		52043681147132B9007D310D /* loading-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A8D13C5F83B0092A075 /* loading-1.png */; };
+		52043682147132B9007D310D /* loading-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A8E13C5F83B0092A075 /* loading-2.png */; };
+		52043683147132B9007D310D /* loading-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A8F13C5F83B0092A075 /* loading-3.png */; };
+		52043684147132B9007D310D /* loading-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A9013C5F83B0092A075 /* loading-4.png */; };
+		52043685147132B9007D310D /* loading-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A9113C5F83B0092A075 /* loading-5.png */; };
+		52043686147132B9007D310D /* loading-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A9213C5F83B0092A075 /* loading-6.png */; };
+		52043687147132B9007D310D /* banner-itau.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147BBA13C73C430092A075 /* banner-itau.png */; };
+		52043688147132B9007D310D /* HospitalDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527127A113CB6DD40035DAEE /* HospitalDetailViewController.xib */; };
+		52043689147132B9007D310D /* PersonalDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527127BB13CB8CB50035DAEE /* PersonalDetailViewController.xib */; };
+		5204368A147132B9007D310D /* AlertaEspecialDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527128EB13CDC9520035DAEE /* AlertaEspecialDetailViewController.xib */; };
+		5204368B147132B9007D310D /* DisclaimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52686D1613E33233008BBEC9 /* DisclaimerViewController.xib */; };
+		5204368C147132B9007D310D /* icone-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 522015C8145AD85A0059F590 /* icone-57.png */; };
+		5204368D147132B9007D310D /* icone-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 522015CA145AD8610059F590 /* icone-114.png */; };
+		5204368E147132B9007D310D /* maisdicas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5267226F146310BF00228391 /* maisdicas.png */; };
+		5204368F147132B9007D310D /* localizando-RJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D541D3146450B300107DCC /* localizando-RJ.png */; };
+		52043690147132B9007D310D /* background-tela-RJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 52043665147066A4007D310D /* background-tela-RJ.png */; };
+		52043691147132B9007D310D /* background-tela-SP.png in Resources */ = {isa = PBXBuildFile; fileRef = 52043666147066A4007D310D /* background-tela-SP.png */; };
+		52043693147132B9007D310D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		52043694147132B9007D310D /* SafeCityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SafeCityAppDelegate.m */; };
+		52043695147132B9007D310D /* SafeCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SafeCityViewController.m */; };
+		52043696147132B9007D310D /* FindBairroByLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5200A420132BF76F005BEA08 /* FindBairroByLocation.m */; };
+		52043697147132B9007D310D /* Bairro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5200A425132BF854005BEA08 /* Bairro.m */; };
+		52043698147132B9007D310D /* FindAllBairros.m in Sources */ = {isa = PBXBuildFile; fileRef = 52139CBF1332D0A000B28689 /* FindAllBairros.m */; };
+		5204369A147132B9007D310D /* EmergencyToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A90431371CB7C00C38D99 /* EmergencyToolbar.m */; };
+		5204369B147132B9007D310D /* DicaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A90761371D7CB00C38D99 /* DicaDetailViewController.m */; };
+		5204369C147132B9007D310D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A90CE1371EDA700C38D99 /* SettingsViewController.m */; };
+		5204369D147132B9007D310D /* BairroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228810E137333F800414DC8 /* BairroTableViewController.m */; };
+		5204369E147132B9007D310D /* ContatoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522881C51373514500414DC8 /* ContatoDetailViewController.m */; };
+		5204369F147132B9007D310D /* EmergencyCallSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52288202137358CF00414DC8 /* EmergencyCallSettingsViewController.m */; };
+		520436A0147132B9007D310D /* EmergencyTextSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228821713735D8A00414DC8 /* EmergencyTextSettingsViewController.m */; };
+		520436A1147132B9007D310D /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCD9A1384A9120024C3FA /* Request.m */; };
+		520436A2147132B9007D310D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991784138ED59000EB1796 /* SBJsonBase.m */; };
+		520436A3147132B9007D310D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991786138ED59000EB1796 /* SBJsonParser.m */; };
+		520436A4147132B9007D310D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991788138ED59000EB1796 /* SBJsonWriter.m */; };
+		520436A5147132B9007D310D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5299178E138ED94A00EB1796 /* NSObject+SBJSON.m */; };
+		520436A6147132B9007D310D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991790138ED94A00EB1796 /* NSString+SBJSON.m */; };
+		520436A7147132B9007D310D /* PoliciaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5286A4D313966F1D006AEA02 /* PoliciaDetailViewController.m */; };
+		520436A8147132B9007D310D /* HospitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527127A013CB6DD40035DAEE /* HospitalDetailViewController.m */; };
+		520436A9147132B9007D310D /* PersonalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527127BA13CB8CB50035DAEE /* PersonalDetailViewController.m */; };
+		520436AA147132B9007D310D /* AlertaEspecialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527128EA13CDC9520035DAEE /* AlertaEspecialDetailViewController.m */; };
+		520436AB147132B9007D310D /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686D1513E33233008BBEC9 /* DisclaimerViewController.m */; };
+		520436AC147132B9007D310D /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD7FFF146019EC0057C584 /* Preferences.m */; };
+		520436AE147132B9007D310D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		520436AF147132B9007D310D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		520436B0147132B9007D310D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		520436B1147132B9007D310D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A40A132AE5BD005BEA08 /* CFNetwork.framework */; };
+		520436B2147132B9007D310D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A40C132AE5BD005BEA08 /* CoreData.framework */; };
+		520436B3147132B9007D310D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A40E132AE5BD005BEA08 /* MobileCoreServices.framework */; };
+		520436B4147132B9007D310D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200A410132AE5BD005BEA08 /* SystemConfiguration.framework */; };
+		520436B5147132B9007D310D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52139FA913381B6800B28689 /* CoreLocation.framework */; };
+		520436B6147132B9007D310D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5286A3D71395C6F5006AEA02 /* MessageUI.framework */; };
+		52139CC01332D0A000B28689 /* FindAllBairros.m in Sources */ = {isa = PBXBuildFile; fileRef = 52139CBF1332D0A000B28689 /* FindAllBairros.m */; };
+		52139FAA13381B6800B28689 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52139FA913381B6800B28689 /* CoreLocation.framework */; };
+		5214797313C4983A0092A075 /* localizando-SP.png in Resources */ = {isa = PBXBuildFile; fileRef = 5214797213C4983A0092A075 /* localizando-SP.png */; };
+		5214797B13C498F20092A075 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5214797A13C498F20092A075 /* default.png */; };
+		521479E613C4A9140092A075 /* disclaimer.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479E513C4A9140092A075 /* disclaimer.png */; };
+		521479EA13C4A9BE0092A075 /* configuracoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479E913C4A9BE0092A075 /* configuracoes.png */; };
+		521479F613C4ABF00092A075 /* policia.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479F513C4ABF00092A075 /* policia.png */; };
+		521479FE13C4AD430092A075 /* hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 521479FD13C4AD430092A075 /* hospital.png */; };
+		52147A0213C4AE5A0092A075 /* personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A0113C4AE5A0092A075 /* personal.png */; };
+		52147A5513C4E1A90092A075 /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A5413C4E1A90092A075 /* icone.png */; };
+		52147A5913C4E4E30092A075 /* logo-interno.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A5813C4E4E30092A075 /* logo-interno.png */; };
+		52147A5D13C4F4B30092A075 /* dicas-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A5C13C4F4B30092A075 /* dicas-icon.png */; };
+		52147A6D13C4F8250092A075 /* alerta-especial.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A6C13C4F8250092A075 /* alerta-especial.png */; };
+		52147A7013C4F8350092A075 /* emergencia.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A6E13C4F8350092A075 /* emergencia.png */; };
+		52147A7113C4F8350092A075 /* meu-destino.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A6F13C4F8350092A075 /* meu-destino.png */; };
+		52147A9313C5F83B0092A075 /* loading-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A8D13C5F83B0092A075 /* loading-1.png */; };
+		52147A9413C5F83B0092A075 /* loading-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A8E13C5F83B0092A075 /* loading-2.png */; };
+		52147A9513C5F83B0092A075 /* loading-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A8F13C5F83B0092A075 /* loading-3.png */; };
+		52147A9613C5F83B0092A075 /* loading-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A9013C5F83B0092A075 /* loading-4.png */; };
+		52147A9713C5F83B0092A075 /* loading-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A9113C5F83B0092A075 /* loading-5.png */; };
+		52147A9813C5F83B0092A075 /* loading-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147A9213C5F83B0092A075 /* loading-6.png */; };
+		52147BBB13C73C430092A075 /* banner-itau.png in Resources */ = {isa = PBXBuildFile; fileRef = 52147BBA13C73C430092A075 /* banner-itau.png */; };
+		522015C9145AD85A0059F590 /* icone-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 522015C8145AD85A0059F590 /* icone-57.png */; };
+		522015CB145AD8610059F590 /* icone-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 522015CA145AD8610059F590 /* icone-114.png */; };
+		52288110137333F800414DC8 /* BairroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228810E137333F800414DC8 /* BairroTableViewController.m */; };
+		52288111137333F800414DC8 /* BairroTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5228810F137333F800414DC8 /* BairroTableViewController.xib */; };
+		522881C71373514500414DC8 /* ContatoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522881C51373514500414DC8 /* ContatoDetailViewController.m */; };
+		522881C81373514500414DC8 /* ContatoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522881C61373514500414DC8 /* ContatoDetailViewController.xib */; };
+		52288204137358CF00414DC8 /* EmergencyCallSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52288202137358CF00414DC8 /* EmergencyCallSettingsViewController.m */; };
+		52288205137358CF00414DC8 /* EmergencyCallSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52288203137358CF00414DC8 /* EmergencyCallSettingsViewController.xib */; };
+		5228821913735D8A00414DC8 /* EmergencyTextSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228821713735D8A00414DC8 /* EmergencyTextSettingsViewController.m */; };
+		5228821A13735D8A00414DC8 /* EmergencyTextSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5228821813735D8A00414DC8 /* EmergencyTextSettingsViewController.xib */; };
+		522A90441371CB7C00C38D99 /* EmergencyToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A90431371CB7C00C38D99 /* EmergencyToolbar.m */; };
+		522A90781371D7CB00C38D99 /* DicaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A90761371D7CB00C38D99 /* DicaDetailViewController.m */; };
+		522A90791371D7CB00C38D99 /* DicaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522A90771371D7CB00C38D99 /* DicaDetailViewController.xib */; };
+		522A90D01371EDA700C38D99 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A90CE1371EDA700C38D99 /* SettingsViewController.m */; };
+		522A90D11371EDA700C38D99 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522A90CF1371EDA700C38D99 /* SettingsViewController.xib */; };
+		524CCD9B1384A9120024C3FA /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCD9A1384A9120024C3FA /* Request.m */; };
+		52672270146310BF00228391 /* maisdicas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5267226F146310BF00228391 /* maisdicas.png */; };
+		52686D1713E33233008BBEC9 /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686D1513E33233008BBEC9 /* DisclaimerViewController.m */; };
+		52686D1813E33233008BBEC9 /* DisclaimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52686D1613E33233008BBEC9 /* DisclaimerViewController.xib */; };
+		527127A213CB6DD40035DAEE /* HospitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527127A013CB6DD40035DAEE /* HospitalDetailViewController.m */; };
+		527127A313CB6DD40035DAEE /* HospitalDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527127A113CB6DD40035DAEE /* HospitalDetailViewController.xib */; };
+		527127BC13CB8CB50035DAEE /* PersonalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527127BA13CB8CB50035DAEE /* PersonalDetailViewController.m */; };
+		527127BD13CB8CB50035DAEE /* PersonalDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527127BB13CB8CB50035DAEE /* PersonalDetailViewController.xib */; };
+		527128EC13CDC9520035DAEE /* AlertaEspecialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527128EA13CDC9520035DAEE /* AlertaEspecialDetailViewController.m */; };
+		527128ED13CDC9520035DAEE /* AlertaEspecialDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527128EB13CDC9520035DAEE /* AlertaEspecialDetailViewController.xib */; };
+		5286A3D81395C6F5006AEA02 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5286A3D71395C6F5006AEA02 /* MessageUI.framework */; };
+		5286A4D513966F1D006AEA02 /* PoliciaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5286A4D313966F1D006AEA02 /* PoliciaDetailViewController.m */; };
+		5286A4D613966F1D006AEA02 /* PoliciaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5286A4D413966F1D006AEA02 /* PoliciaDetailViewController.xib */; };
+		52991789138ED59000EB1796 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991784138ED59000EB1796 /* SBJsonBase.m */; };
+		5299178A138ED59000EB1796 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991786138ED59000EB1796 /* SBJsonParser.m */; };
+		5299178B138ED59000EB1796 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991788138ED59000EB1796 /* SBJsonWriter.m */; };
+		52991791138ED94B00EB1796 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5299178E138ED94A00EB1796 /* NSObject+SBJSON.m */; };
+		52991792138ED94B00EB1796 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52991790138ED94A00EB1796 /* NSString+SBJSON.m */; };
+		52D541D4146450B300107DCC /* localizando-RJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D541D3146450B300107DCC /* localizando-RJ.png */; };
+		52EAE4541492C5D40044F946 /* BairroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EAE4521492C5D30044F946 /* BairroDetailViewController.m */; };
+		52EAE4551492C5D40044F946 /* BairroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EAE4521492C5D30044F946 /* BairroDetailViewController.m */; };
+		52EAE4561492C5D40044F946 /* BairroDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EAE4531492C5D40044F946 /* BairroDetailViewController.xib */; };
+		52EAE4571492C5D40044F946 /* BairroDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EAE4531492C5D40044F946 /* BairroDetailViewController.xib */; };
+		52FD8000146019EC0057C584 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD7FFF146019EC0057C584 /* Preferences.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SafeCityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeCityAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SafeCityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeCityAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SafeCity SP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeCity SP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SafeCityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeCityViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SafeCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeCityViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SafeCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeCityViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SafeCity_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeCity_Prefix.pch; sourceTree = "<group>"; };
+		5200A40A132AE5BD005BEA08 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5200A40C132AE5BD005BEA08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5200A40E132AE5BD005BEA08 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5200A410132AE5BD005BEA08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5200A41F132BF76F005BEA08 /* FindBairroByLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindBairroByLocation.h; sourceTree = "<group>"; };
+		5200A420132BF76F005BEA08 /* FindBairroByLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindBairroByLocation.m; sourceTree = "<group>"; };
+		5200A424132BF854005BEA08 /* Bairro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bairro.h; sourceTree = "<group>"; };
+		5200A425132BF854005BEA08 /* Bairro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bairro.m; sourceTree = "<group>"; };
+		5200A6A2132C87A2005BEA08 /* RequestCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCallback.h; sourceTree = "<group>"; };
+		52043665147066A4007D310D /* background-tela-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-RJ.png"; path = "../../../Dropbox/Projects/SafeCity-arte/background-tela-RJ.png"; sourceTree = "<group>"; };
+		52043666147066A4007D310D /* background-tela-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-SP.png"; path = "../../../Dropbox/Projects/SafeCity-arte/background-tela-SP.png"; sourceTree = "<group>"; };
+		520436BB147132B9007D310D /* SafeCity RJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeCity RJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52139CBE1332D0A000B28689 /* FindAllBairros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindAllBairros.h; sourceTree = "<group>"; };
+		52139CBF1332D0A000B28689 /* FindAllBairros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindAllBairros.m; sourceTree = "<group>"; };
+		52139FA913381B6800B28689 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5214797213C4983A0092A075 /* localizando-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "localizando-SP.png"; path = "../../Dropbox/Projects/SafeCity-arte/localizando-SP.png"; sourceTree = SOURCE_ROOT; };
+		5214797A13C498F20092A075 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = "../../Dropbox/Projects/SafeCity-arte/default.png"; sourceTree = SOURCE_ROOT; };
+		521479E513C4A9140092A075 /* disclaimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclaimer.png; path = "../../Dropbox/Projects/SafeCity-arte/disclaimer.png"; sourceTree = SOURCE_ROOT; };
+		521479E913C4A9BE0092A075 /* configuracoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = configuracoes.png; path = "../../Dropbox/Projects/SafeCity-arte/configuracoes.png"; sourceTree = SOURCE_ROOT; };
+		521479F513C4ABF00092A075 /* policia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = policia.png; path = "../../Dropbox/Projects/SafeCity-arte/policia.png"; sourceTree = SOURCE_ROOT; };
+		521479FD13C4AD430092A075 /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hospital.png; path = "../../Dropbox/Projects/SafeCity-arte/hospital.png"; sourceTree = SOURCE_ROOT; };
+		52147A0113C4AE5A0092A075 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personal.png; path = "../../Dropbox/Projects/SafeCity-arte/personal.png"; sourceTree = SOURCE_ROOT; };
+		52147A5413C4E1A90092A075 /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone.png; path = "../../Dropbox/Projects/SafeCity-arte/icone.png"; sourceTree = SOURCE_ROOT; };
+		52147A5813C4E4E30092A075 /* logo-interno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-interno.png"; path = "../../Dropbox/Projects/SafeCity-arte/logo-interno.png"; sourceTree = SOURCE_ROOT; };
+		52147A5C13C4F4B30092A075 /* dicas-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dicas-icon.png"; path = "../../Dropbox/Projects/SafeCity-arte/dicas-icon.png"; sourceTree = SOURCE_ROOT; };
+		52147A6C13C4F8250092A075 /* alerta-especial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alerta-especial.png"; path = "../../Dropbox/Projects/SafeCity-arte/alerta-especial.png"; sourceTree = SOURCE_ROOT; };
+		52147A6E13C4F8350092A075 /* emergencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emergencia.png; path = "../../Dropbox/Projects/SafeCity-arte/emergencia.png"; sourceTree = SOURCE_ROOT; };
+		52147A6F13C4F8350092A075 /* meu-destino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meu-destino.png"; path = "../../Dropbox/Projects/SafeCity-arte/meu-destino.png"; sourceTree = SOURCE_ROOT; };
+		52147A8D13C5F83B0092A075 /* loading-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-1.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-1.png"; sourceTree = SOURCE_ROOT; };
+		52147A8E13C5F83B0092A075 /* loading-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-2.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-2.png"; sourceTree = SOURCE_ROOT; };
+		52147A8F13C5F83B0092A075 /* loading-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-3.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-3.png"; sourceTree = SOURCE_ROOT; };
+		52147A9013C5F83B0092A075 /* loading-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-4.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-4.png"; sourceTree = SOURCE_ROOT; };
+		52147A9113C5F83B0092A075 /* loading-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-5.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-5.png"; sourceTree = SOURCE_ROOT; };
+		52147A9213C5F83B0092A075 /* loading-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-6.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-6.png"; sourceTree = SOURCE_ROOT; };
+		52147BBA13C73C430092A075 /* banner-itau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner-itau.png"; path = "../../Dropbox/Projects/SafeCity-arte/banner-itau.png"; sourceTree = SOURCE_ROOT; };
+		522015C8145AD85A0059F590 /* icone-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-57.png"; path = "../icone-57.png"; sourceTree = "<group>"; };
+		522015CA145AD8610059F590 /* icone-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-114.png"; path = "../icone-114.png"; sourceTree = "<group>"; };
+		5228810D137333F800414DC8 /* BairroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BairroTableViewController.h; sourceTree = "<group>"; };
+		5228810E137333F800414DC8 /* BairroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BairroTableViewController.m; sourceTree = "<group>"; };
+		5228810F137333F800414DC8 /* BairroTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BairroTableViewController.xib; path = Classes/BairroTableViewController.xib; sourceTree = "<group>"; };
+		522881C41373514500414DC8 /* ContatoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoDetailViewController.h; sourceTree = "<group>"; };
+		522881C51373514500414DC8 /* ContatoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoDetailViewController.m; sourceTree = "<group>"; };
+		522881C61373514500414DC8 /* ContatoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContatoDetailViewController.xib; path = Classes/ContatoDetailViewController.xib; sourceTree = "<group>"; };
+		52288201137358CF00414DC8 /* EmergencyCallSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyCallSettingsViewController.h; sourceTree = "<group>"; };
+		52288202137358CF00414DC8 /* EmergencyCallSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyCallSettingsViewController.m; sourceTree = "<group>"; };
+		52288203137358CF00414DC8 /* EmergencyCallSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EmergencyCallSettingsViewController.xib; path = Classes/EmergencyCallSettingsViewController.xib; sourceTree = "<group>"; };
+		5228821613735D8A00414DC8 /* EmergencyTextSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyTextSettingsViewController.h; sourceTree = "<group>"; };
+		5228821713735D8A00414DC8 /* EmergencyTextSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyTextSettingsViewController.m; sourceTree = "<group>"; };
+		5228821813735D8A00414DC8 /* EmergencyTextSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EmergencyTextSettingsViewController.xib; path = Classes/EmergencyTextSettingsViewController.xib; sourceTree = "<group>"; };
+		522A90421371CB7C00C38D99 /* EmergencyToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyToolbar.h; sourceTree = "<group>"; };
+		522A90431371CB7C00C38D99 /* EmergencyToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyToolbar.m; sourceTree = "<group>"; };
+		522A90751371D7CB00C38D99 /* DicaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicaDetailViewController.h; sourceTree = "<group>"; };
+		522A90761371D7CB00C38D99 /* DicaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicaDetailViewController.m; sourceTree = "<group>"; };
+		522A90771371D7CB00C38D99 /* DicaDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DicaDetailViewController.xib; path = Classes/DicaDetailViewController.xib; sourceTree = "<group>"; };
+		522A90CD1371EDA700C38D99 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		522A90CE1371EDA700C38D99 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		522A90CF1371EDA700C38D99 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		524CCD991384A9120024C3FA /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		524CCD9A1384A9120024C3FA /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		5267226F146310BF00228391 /* maisdicas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maisdicas.png; sourceTree = "<group>"; };
+		52686D1413E33233008BBEC9 /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclaimerViewController.h; sourceTree = "<group>"; };
+		52686D1513E33233008BBEC9 /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclaimerViewController.m; sourceTree = "<group>"; };
+		52686D1613E33233008BBEC9 /* DisclaimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DisclaimerViewController.xib; path = Classes/DisclaimerViewController.xib; sourceTree = "<group>"; };
+		5271279F13CB6DD40035DAEE /* HospitalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailViewController.h; sourceTree = "<group>"; };
+		527127A013CB6DD40035DAEE /* HospitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailViewController.m; sourceTree = "<group>"; };
+		527127A113CB6DD40035DAEE /* HospitalDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HospitalDetailViewController.xib; path = Classes/HospitalDetailViewController.xib; sourceTree = "<group>"; };
+		527127B913CB8CB50035DAEE /* PersonalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDetailViewController.h; sourceTree = "<group>"; };
+		527127BA13CB8CB50035DAEE /* PersonalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDetailViewController.m; sourceTree = "<group>"; };
+		527127BB13CB8CB50035DAEE /* PersonalDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonalDetailViewController.xib; path = Classes/PersonalDetailViewController.xib; sourceTree = "<group>"; };
+		527128E913CDC9520035DAEE /* AlertaEspecialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertaEspecialDetailViewController.h; sourceTree = "<group>"; };
+		527128EA13CDC9520035DAEE /* AlertaEspecialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertaEspecialDetailViewController.m; sourceTree = "<group>"; };
+		527128EB13CDC9520035DAEE /* AlertaEspecialDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlertaEspecialDetailViewController.xib; path = Classes/AlertaEspecialDetailViewController.xib; sourceTree = "<group>"; };
+		5286A3D71395C6F5006AEA02 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5286A4D213966F1D006AEA02 /* PoliciaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoliciaDetailViewController.h; sourceTree = "<group>"; };
+		5286A4D313966F1D006AEA02 /* PoliciaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoliciaDetailViewController.m; sourceTree = "<group>"; };
+		5286A4D413966F1D006AEA02 /* PoliciaDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PoliciaDetailViewController.xib; path = Classes/PoliciaDetailViewController.xib; sourceTree = "<group>"; };
+		528A5F81143E896400165E50 /* SafeCity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SafeCity.entitlements; sourceTree = "<group>"; };
+		52991783138ED59000EB1796 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		52991784138ED59000EB1796 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		52991785138ED59000EB1796 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		52991786138ED59000EB1796 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		52991787138ED59000EB1796 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		52991788138ED59000EB1796 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		5299178C138ED94A00EB1796 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5299178D138ED94A00EB1796 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5299178E138ED94A00EB1796 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5299178F138ED94A00EB1796 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		52991790138ED94A00EB1796 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		52D541D3146450B300107DCC /* localizando-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "localizando-RJ.png"; path = "../../../Dropbox/Projects/SafeCity-arte/localizando-RJ.png"; sourceTree = "<group>"; };
+		52EAE4511492C5D30044F946 /* BairroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BairroDetailViewController.h; sourceTree = "<group>"; };
+		52EAE4521492C5D30044F946 /* BairroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BairroDetailViewController.m; sourceTree = "<group>"; };
+		52EAE4531492C5D40044F946 /* BairroDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BairroDetailViewController.xib; path = Classes/BairroDetailViewController.xib; sourceTree = "<group>"; };
+		52FD7FFE146019EC0057C584 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		52FD7FFF146019EC0057C584 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SafeCity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SafeCity-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				5200A40B132AE5BD005BEA08 /* CFNetwork.framework in Frameworks */,
+				5200A40D132AE5BD005BEA08 /* CoreData.framework in Frameworks */,
+				5200A40F132AE5BD005BEA08 /* MobileCoreServices.framework in Frameworks */,
+				5200A411132AE5BD005BEA08 /* SystemConfiguration.framework in Frameworks */,
+				52139FAA13381B6800B28689 /* CoreLocation.framework in Frameworks */,
+				5286A3D81395C6F5006AEA02 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520436AD147132B9007D310D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520436AE147132B9007D310D /* Foundation.framework in Frameworks */,
+				520436AF147132B9007D310D /* UIKit.framework in Frameworks */,
+				520436B0147132B9007D310D /* CoreGraphics.framework in Frameworks */,
+				520436B1147132B9007D310D /* CFNetwork.framework in Frameworks */,
+				520436B2147132B9007D310D /* CoreData.framework in Frameworks */,
+				520436B3147132B9007D310D /* MobileCoreServices.framework in Frameworks */,
+				520436B4147132B9007D310D /* SystemConfiguration.framework in Frameworks */,
+				520436B5147132B9007D310D /* CoreLocation.framework in Frameworks */,
+				520436B6147132B9007D310D /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52FD7FFD146019C40057C584 /* Util */,
+				5214784B13C398C40092A075 /* images */,
+				52991757138ED53F00EB1796 /* SB */,
+				5200A423132BF837005BEA08 /* Model */,
+				5200A422132BF820005BEA08 /* Requests */,
+				1D3623240D0F684500981E51 /* SafeCityAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SafeCityAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SafeCityViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SafeCityViewController.m */,
+				52EAE4511492C5D30044F946 /* BairroDetailViewController.h */,
+				52EAE4521492C5D30044F946 /* BairroDetailViewController.m */,
+				5228810D137333F800414DC8 /* BairroTableViewController.h */,
+				5228810E137333F800414DC8 /* BairroTableViewController.m */,
+				522A90421371CB7C00C38D99 /* EmergencyToolbar.h */,
+				522A90431371CB7C00C38D99 /* EmergencyToolbar.m */,
+				522A90751371D7CB00C38D99 /* DicaDetailViewController.h */,
+				522A90761371D7CB00C38D99 /* DicaDetailViewController.m */,
+				522A90CD1371EDA700C38D99 /* SettingsViewController.h */,
+				522A90CE1371EDA700C38D99 /* SettingsViewController.m */,
+				522881C41373514500414DC8 /* ContatoDetailViewController.h */,
+				522881C51373514500414DC8 /* ContatoDetailViewController.m */,
+				52288201137358CF00414DC8 /* EmergencyCallSettingsViewController.h */,
+				52288202137358CF00414DC8 /* EmergencyCallSettingsViewController.m */,
+				5228821613735D8A00414DC8 /* EmergencyTextSettingsViewController.h */,
+				5228821713735D8A00414DC8 /* EmergencyTextSettingsViewController.m */,
+				5286A4D213966F1D006AEA02 /* PoliciaDetailViewController.h */,
+				5286A4D313966F1D006AEA02 /* PoliciaDetailViewController.m */,
+				5271279F13CB6DD40035DAEE /* HospitalDetailViewController.h */,
+				527127A013CB6DD40035DAEE /* HospitalDetailViewController.m */,
+				527127B913CB8CB50035DAEE /* PersonalDetailViewController.h */,
+				527127BA13CB8CB50035DAEE /* PersonalDetailViewController.m */,
+				527128E913CDC9520035DAEE /* AlertaEspecialDetailViewController.h */,
+				527128EA13CDC9520035DAEE /* AlertaEspecialDetailViewController.m */,
+				52686D1413E33233008BBEC9 /* DisclaimerViewController.h */,
+				52686D1513E33233008BBEC9 /* DisclaimerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SafeCity SP.app */,
+				520436BB147132B9007D310D /* SafeCity RJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				528A5F81143E896400165E50 /* SafeCity.entitlements */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5200A40A132AE5BD005BEA08 /* CFNetwork.framework */,
+				5200A40C132AE5BD005BEA08 /* CoreData.framework */,
+				5200A40E132AE5BD005BEA08 /* MobileCoreServices.framework */,
+				5200A410132AE5BD005BEA08 /* SystemConfiguration.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SafeCity_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* SafeCity-Info.plist */,
+				2899E5210DE3E06400AC0155 /* SafeCityViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				52EAE4531492C5D40044F946 /* BairroDetailViewController.xib */,
+				5228810F137333F800414DC8 /* BairroTableViewController.xib */,
+				522A90771371D7CB00C38D99 /* DicaDetailViewController.xib */,
+				522A90CF1371EDA700C38D99 /* SettingsViewController.xib */,
+				522881C61373514500414DC8 /* ContatoDetailViewController.xib */,
+				52288203137358CF00414DC8 /* EmergencyCallSettingsViewController.xib */,
+				5228821813735D8A00414DC8 /* EmergencyTextSettingsViewController.xib */,
+				5286A4D413966F1D006AEA02 /* PoliciaDetailViewController.xib */,
+				527127A113CB6DD40035DAEE /* HospitalDetailViewController.xib */,
+				527127BB13CB8CB50035DAEE /* PersonalDetailViewController.xib */,
+				527128EB13CDC9520035DAEE /* AlertaEspecialDetailViewController.xib */,
+				52686D1613E33233008BBEC9 /* DisclaimerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				52139FA913381B6800B28689 /* CoreLocation.framework */,
+				5286A3D71395C6F5006AEA02 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5200A422132BF820005BEA08 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				524CCD991384A9120024C3FA /* Request.h */,
+				524CCD9A1384A9120024C3FA /* Request.m */,
+				5200A6A2132C87A2005BEA08 /* RequestCallback.h */,
+				52139CBE1332D0A000B28689 /* FindAllBairros.h */,
+				52139CBF1332D0A000B28689 /* FindAllBairros.m */,
+				5200A41F132BF76F005BEA08 /* FindBairroByLocation.h */,
+				5200A420132BF76F005BEA08 /* FindBairroByLocation.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		5200A423132BF837005BEA08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5200A424132BF854005BEA08 /* Bairro.h */,
+				5200A425132BF854005BEA08 /* Bairro.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5214784B13C398C40092A075 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5214797213C4983A0092A075 /* localizando-SP.png */,
+				5214797A13C498F20092A075 /* default.png */,
+				521479E513C4A9140092A075 /* disclaimer.png */,
+				521479E913C4A9BE0092A075 /* configuracoes.png */,
+				521479F513C4ABF00092A075 /* policia.png */,
+				521479FD13C4AD430092A075 /* hospital.png */,
+				52147A0113C4AE5A0092A075 /* personal.png */,
+				52147A5413C4E1A90092A075 /* icone.png */,
+				52147A5813C4E4E30092A075 /* logo-interno.png */,
+				52147A5C13C4F4B30092A075 /* dicas-icon.png */,
+				52147A6C13C4F8250092A075 /* alerta-especial.png */,
+				52147A6E13C4F8350092A075 /* emergencia.png */,
+				52147A6F13C4F8350092A075 /* meu-destino.png */,
+				52147A8D13C5F83B0092A075 /* loading-1.png */,
+				52147A8E13C5F83B0092A075 /* loading-2.png */,
+				52147A8F13C5F83B0092A075 /* loading-3.png */,
+				52147A9013C5F83B0092A075 /* loading-4.png */,
+				52147A9113C5F83B0092A075 /* loading-5.png */,
+				52147A9213C5F83B0092A075 /* loading-6.png */,
+				52147BBA13C73C430092A075 /* banner-itau.png */,
+				52D541D3146450B300107DCC /* localizando-RJ.png */,
+				5267226F146310BF00228391 /* maisdicas.png */,
+				522015CA145AD8610059F590 /* icone-114.png */,
+				522015C8145AD85A0059F590 /* icone-57.png */,
+				52043665147066A4007D310D /* background-tela-RJ.png */,
+				52043666147066A4007D310D /* background-tela-SP.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		52991757138ED53F00EB1796 /* SB */ = {
+			isa = PBXGroup;
+			children = (
+				5299178C138ED94A00EB1796 /* JSON.h */,
+				5299178D138ED94A00EB1796 /* NSObject+SBJSON.h */,
+				5299178E138ED94A00EB1796 /* NSObject+SBJSON.m */,
+				5299178F138ED94A00EB1796 /* NSString+SBJSON.h */,
+				52991790138ED94A00EB1796 /* NSString+SBJSON.m */,
+				52991783138ED59000EB1796 /* SBJsonBase.h */,
+				52991784138ED59000EB1796 /* SBJsonBase.m */,
+				52991785138ED59000EB1796 /* SBJsonParser.h */,
+				52991786138ED59000EB1796 /* SBJsonParser.m */,
+				52991787138ED59000EB1796 /* SBJsonWriter.h */,
+				52991788138ED59000EB1796 /* SBJsonWriter.m */,
+			);
+			name = SB;
+			sourceTree = "<group>";
+		};
+		52FD7FFD146019C40057C584 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				52FD7FFE146019EC0057C584 /* Preferences.h */,
+				52FD7FFF146019EC0057C584 /* Preferences.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SafeCity SP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SafeCity SP" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafeCity SP";
+			productName = SafeCity;
+			productReference = 1D6058910D05DD3D006BFB54 /* SafeCity SP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52043669147132B9007D310D /* SafeCity RJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520436B7147132B9007D310D /* Build configuration list for PBXNativeTarget "SafeCity RJ" */;
+			buildPhases = (
+				5204366A147132B9007D310D /* Resources */,
+				52043692147132B9007D310D /* Sources */,
+				520436AD147132B9007D310D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafeCity RJ";
+			productName = SafeCity;
+			productReference = 520436BB147132B9007D310D /* SafeCity RJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SafeCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SafeCity SP */,
+				52043669147132B9007D310D /* SafeCity RJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SafeCityViewController.xib in Resources */,
+				522A90791371D7CB00C38D99 /* DicaDetailViewController.xib in Resources */,
+				522A90D11371EDA700C38D99 /* SettingsViewController.xib in Resources */,
+				52288111137333F800414DC8 /* BairroTableViewController.xib in Resources */,
+				522881C81373514500414DC8 /* ContatoDetailViewController.xib in Resources */,
+				52288205137358CF00414DC8 /* EmergencyCallSettingsViewController.xib in Resources */,
+				5228821A13735D8A00414DC8 /* EmergencyTextSettingsViewController.xib in Resources */,
+				5286A4D613966F1D006AEA02 /* PoliciaDetailViewController.xib in Resources */,
+				5214797313C4983A0092A075 /* localizando-SP.png in Resources */,
+				5214797B13C498F20092A075 /* default.png in Resources */,
+				521479E613C4A9140092A075 /* disclaimer.png in Resources */,
+				521479EA13C4A9BE0092A075 /* configuracoes.png in Resources */,
+				521479F613C4ABF00092A075 /* policia.png in Resources */,
+				521479FE13C4AD430092A075 /* hospital.png in Resources */,
+				52147A0213C4AE5A0092A075 /* personal.png in Resources */,
+				52147A5513C4E1A90092A075 /* icone.png in Resources */,
+				52147A5913C4E4E30092A075 /* logo-interno.png in Resources */,
+				52147A5D13C4F4B30092A075 /* dicas-icon.png in Resources */,
+				52147A6D13C4F8250092A075 /* alerta-especial.png in Resources */,
+				52147A7013C4F8350092A075 /* emergencia.png in Resources */,
+				52147A7113C4F8350092A075 /* meu-destino.png in Resources */,
+				52147A9313C5F83B0092A075 /* loading-1.png in Resources */,
+				52147A9413C5F83B0092A075 /* loading-2.png in Resources */,
+				52147A9513C5F83B0092A075 /* loading-3.png in Resources */,
+				52147A9613C5F83B0092A075 /* loading-4.png in Resources */,
+				52147A9713C5F83B0092A075 /* loading-5.png in Resources */,
+				52147A9813C5F83B0092A075 /* loading-6.png in Resources */,
+				52147BBB13C73C430092A075 /* banner-itau.png in Resources */,
+				527127A313CB6DD40035DAEE /* HospitalDetailViewController.xib in Resources */,
+				527127BD13CB8CB50035DAEE /* PersonalDetailViewController.xib in Resources */,
+				527128ED13CDC9520035DAEE /* AlertaEspecialDetailViewController.xib in Resources */,
+				52686D1813E33233008BBEC9 /* DisclaimerViewController.xib in Resources */,
+				522015C9145AD85A0059F590 /* icone-57.png in Resources */,
+				522015CB145AD8610059F590 /* icone-114.png in Resources */,
+				52672270146310BF00228391 /* maisdicas.png in Resources */,
+				52D541D4146450B300107DCC /* localizando-RJ.png in Resources */,
+				52043667147066A4007D310D /* background-tela-RJ.png in Resources */,
+				52043668147066A4007D310D /* background-tela-SP.png in Resources */,
+				52EAE4561492C5D40044F946 /* BairroDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5204366A147132B9007D310D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5204366B147132B9007D310D /* MainWindow.xib in Resources */,
+				5204366C147132B9007D310D /* SafeCityViewController.xib in Resources */,
+				5204366D147132B9007D310D /* DicaDetailViewController.xib in Resources */,
+				5204366E147132B9007D310D /* SettingsViewController.xib in Resources */,
+				5204366F147132B9007D310D /* BairroTableViewController.xib in Resources */,
+				52043670147132B9007D310D /* ContatoDetailViewController.xib in Resources */,
+				52043671147132B9007D310D /* EmergencyCallSettingsViewController.xib in Resources */,
+				52043672147132B9007D310D /* EmergencyTextSettingsViewController.xib in Resources */,
+				52043673147132B9007D310D /* PoliciaDetailViewController.xib in Resources */,
+				52043674147132B9007D310D /* localizando-SP.png in Resources */,
+				52043675147132B9007D310D /* default.png in Resources */,
+				52043676147132B9007D310D /* disclaimer.png in Resources */,
+				52043677147132B9007D310D /* configuracoes.png in Resources */,
+				52043678147132B9007D310D /* policia.png in Resources */,
+				52043679147132B9007D310D /* hospital.png in Resources */,
+				5204367A147132B9007D310D /* personal.png in Resources */,
+				5204367B147132B9007D310D /* icone.png in Resources */,
+				5204367C147132B9007D310D /* logo-interno.png in Resources */,
+				5204367D147132B9007D310D /* dicas-icon.png in Resources */,
+				5204367E147132B9007D310D /* alerta-especial.png in Resources */,
+				5204367F147132B9007D310D /* emergencia.png in Resources */,
+				52043680147132B9007D310D /* meu-destino.png in Resources */,
+				52043681147132B9007D310D /* loading-1.png in Resources */,
+				52043682147132B9007D310D /* loading-2.png in Resources */,
+				52043683147132B9007D310D /* loading-3.png in Resources */,
+				52043684147132B9007D310D /* loading-4.png in Resources */,
+				52043685147132B9007D310D /* loading-5.png in Resources */,
+				52043686147132B9007D310D /* loading-6.png in Resources */,
+				52043687147132B9007D310D /* banner-itau.png in Resources */,
+				52043688147132B9007D310D /* HospitalDetailViewController.xib in Resources */,
+				52043689147132B9007D310D /* PersonalDetailViewController.xib in Resources */,
+				5204368A147132B9007D310D /* AlertaEspecialDetailViewController.xib in Resources */,
+				5204368B147132B9007D310D /* DisclaimerViewController.xib in Resources */,
+				5204368C147132B9007D310D /* icone-57.png in Resources */,
+				5204368D147132B9007D310D /* icone-114.png in Resources */,
+				5204368E147132B9007D310D /* maisdicas.png in Resources */,
+				5204368F147132B9007D310D /* localizando-RJ.png in Resources */,
+				52043690147132B9007D310D /* background-tela-RJ.png in Resources */,
+				52043691147132B9007D310D /* background-tela-SP.png in Resources */,
+				52EAE4571492C5D40044F946 /* BairroDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SafeCityAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SafeCityViewController.m in Sources */,
+				5200A421132BF76F005BEA08 /* FindBairroByLocation.m in Sources */,
+				5200A426132BF854005BEA08 /* Bairro.m in Sources */,
+				52139CC01332D0A000B28689 /* FindAllBairros.m in Sources */,
+				522A90441371CB7C00C38D99 /* EmergencyToolbar.m in Sources */,
+				522A90781371D7CB00C38D99 /* DicaDetailViewController.m in Sources */,
+				522A90D01371EDA700C38D99 /* SettingsViewController.m in Sources */,
+				52288110137333F800414DC8 /* BairroTableViewController.m in Sources */,
+				522881C71373514500414DC8 /* ContatoDetailViewController.m in Sources */,
+				52288204137358CF00414DC8 /* EmergencyCallSettingsViewController.m in Sources */,
+				5228821913735D8A00414DC8 /* EmergencyTextSettingsViewController.m in Sources */,
+				524CCD9B1384A9120024C3FA /* Request.m in Sources */,
+				52991789138ED59000EB1796 /* SBJsonBase.m in Sources */,
+				5299178A138ED59000EB1796 /* SBJsonParser.m in Sources */,
+				5299178B138ED59000EB1796 /* SBJsonWriter.m in Sources */,
+				52991791138ED94B00EB1796 /* NSObject+SBJSON.m in Sources */,
+				52991792138ED94B00EB1796 /* NSString+SBJSON.m in Sources */,
+				5286A4D513966F1D006AEA02 /* PoliciaDetailViewController.m in Sources */,
+				527127A213CB6DD40035DAEE /* HospitalDetailViewController.m in Sources */,
+				527127BC13CB8CB50035DAEE /* PersonalDetailViewController.m in Sources */,
+				527128EC13CDC9520035DAEE /* AlertaEspecialDetailViewController.m in Sources */,
+				52686D1713E33233008BBEC9 /* DisclaimerViewController.m in Sources */,
+				52FD8000146019EC0057C584 /* Preferences.m in Sources */,
+				52EAE4541492C5D40044F946 /* BairroDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043692147132B9007D310D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52043693147132B9007D310D /* main.m in Sources */,
+				52043694147132B9007D310D /* SafeCityAppDelegate.m in Sources */,
+				52043695147132B9007D310D /* SafeCityViewController.m in Sources */,
+				52043696147132B9007D310D /* FindBairroByLocation.m in Sources */,
+				52043697147132B9007D310D /* Bairro.m in Sources */,
+				52043698147132B9007D310D /* FindAllBairros.m in Sources */,
+				5204369A147132B9007D310D /* EmergencyToolbar.m in Sources */,
+				5204369B147132B9007D310D /* DicaDetailViewController.m in Sources */,
+				5204369C147132B9007D310D /* SettingsViewController.m in Sources */,
+				5204369D147132B9007D310D /* BairroTableViewController.m in Sources */,
+				5204369E147132B9007D310D /* ContatoDetailViewController.m in Sources */,
+				5204369F147132B9007D310D /* EmergencyCallSettingsViewController.m in Sources */,
+				520436A0147132B9007D310D /* EmergencyTextSettingsViewController.m in Sources */,
+				520436A1147132B9007D310D /* Request.m in Sources */,
+				520436A2147132B9007D310D /* SBJsonBase.m in Sources */,
+				520436A3147132B9007D310D /* SBJsonParser.m in Sources */,
+				520436A4147132B9007D310D /* SBJsonWriter.m in Sources */,
+				520436A5147132B9007D310D /* NSObject+SBJSON.m in Sources */,
+				520436A6147132B9007D310D /* NSString+SBJSON.m in Sources */,
+				520436A7147132B9007D310D /* PoliciaDetailViewController.m in Sources */,
+				520436A8147132B9007D310D /* HospitalDetailViewController.m in Sources */,
+				520436A9147132B9007D310D /* PersonalDetailViewController.m in Sources */,
+				520436AA147132B9007D310D /* AlertaEspecialDetailViewController.m in Sources */,
+				520436AB147132B9007D310D /* DisclaimerViewController.m in Sources */,
+				520436AC147132B9007D310D /* Preferences.m in Sources */,
+				52EAE4551492C5D40044F946 /* BairroDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SafeCity_Prefix.pch;
+				INFOPLIST_FILE = "SafeCity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "SafeCity SP";
+				SDKROOT = iphoneos;
+				city = SP;
+				city_label = "São Paulo";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SafeCity_Prefix.pch;
+				INFOPLIST_FILE = "SafeCity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "SafeCity SP";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				city = SP;
+				city_label = "São Paulo";
+			};
+			name = Release;
+		};
+		520436B8147132B9007D310D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SafeCity_Prefix.pch;
+				INFOPLIST_FILE = "SafeCity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "SafeCity RJ";
+				SDKROOT = iphoneos;
+				city = RJ;
+				city_label = "Rio de Janeiro";
+			};
+			name = Debug;
+		};
+		520436B9147132B9007D310D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SafeCity_Prefix.pch;
+				INFOPLIST_FILE = "SafeCity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "SafeCity RJ";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				city = RJ;
+				city_label = "Rio de Janeiro";
+			};
+			name = Release;
+		};
+		520436BA147132B9007D310D /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SafeCity_Prefix.pch;
+				INFOPLIST_FILE = "SafeCity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "SafeCity RJ";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				city = RJ;
+				city_label = "Rio de Janeiro";
+			};
+			name = "Ad-hoc";
+		};
+		520C26CE1451A2DE0051E814 /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad-hoc";
+		};
+		520C26CF1451A2DE0051E814 /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SafeCity_Prefix.pch;
+				INFOPLIST_FILE = "SafeCity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "SafeCity SP";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				city = SP;
+				city_label = "São Paulo";
+			};
+			name = "Ad-hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SafeCity SP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				520C26CF1451A2DE0051E814 /* Ad-hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad-hoc";
+		};
+		520436B7147132B9007D310D /* Build configuration list for PBXNativeTarget "SafeCity RJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520436B8147132B9007D310D /* Debug */,
+				520436B9147132B9007D310D /* Release */,
+				520436BA147132B9007D310D /* Ad-hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad-hoc";
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SafeCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				520C26CE1451A2DE0051E814 /* Ad-hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad-hoc";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

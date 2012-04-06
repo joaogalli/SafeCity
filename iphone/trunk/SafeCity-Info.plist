@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>icone.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icone-57.png</string>
+		<string>icone-114.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>icone-57.png</string>
+				<string>icone-114.png</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>br.com.i4people.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2.7</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.2.7</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+	<key>UIApplicationExitsOnSuspend</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>location-services</string>
+		<string>gps</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>avisoLegal_RJ</key>
+	<string>1. As informações contidas no SafeCity foram geradas a partir do cruzamento de dados disponibilizados pela Secretaria de Segurança Pública e do Instituto de Segurança Pública do Estado do Rio de Janeiro, entrevistas com agentes de Segurança Pública, moradores e associações comunitárias e de bairro. 
+
+2. O material foi coletado no início do segundo semestre de 2011 e, por isso, os contatos telefônicos, tanto da polícia quanto dos hospitais, podem ter ficado desatualizados após o SafeCity ficar ativo. A mudança de telefone das respectivas instituições não é de responsabilidade da I4People, desenvolvedora deste aplicativo.
+3. O SafeCity localiza o usuário assim que o aplicativo é acionado, através da triangulação de antenas. Caso o usuário prefira não ser localizado pelo aplicativo, deve utilizar função “Meu Destino”, que funciona em modo “off line”.
+ 
+4. A denominação dos bairros no Rio de Janeiro varia segundo o mapa das Delegacías de Policía, o mapa da Prefeitura do Rio de Janeiro e a própria nomenclatura que os vizinhos dão aos seus próprios bairros. Isso deriva, as vezes, em três nomes diferentes para um mesmo lugar. I4People teve que fazer uma escolha caso a caso, segundo o melhor critério para cada bairro. Alguns bairros foram amalgamados em um único grande bairro devido as disponibilizações unificadas de dados de segurança pública naquela região.
+ 
+5. O destaque das incidências nos bairros não significa que estas sejam as mais frequentes no local, mas sim que são as que mais chamam a atenção naquela área, caracterizando-se como um problema de segurança pública. Por exemplo, furtos são ocorrências que prevalecem em todos os bairros, mas em alguns locais registram-se, além desse tipo de delito, outras incidências peculiares à região, que foram captadas e destacadas pela pesquisa realizada pela I4People.
+ 
+6. O alerta sobre a ocorrência de delitos em um determinado bairro não exclui a possibilidade da verificação de outros, tampouco visa estigmatizar o local. O objetivo do Aplicativo é alertar o cidadão e o poder público sobre os problemas de segurança pública encontrados na pesquisa realizada.
+ 
+7. O SafeCity é um aplicativo de caráter apenas informativo, baseada em fontes públicas e em entrevistas, criada com o objetivo ser um instrumento utilitário para a vida urbana. Não deve, em nenhuma hipótese, ser utilizado como ferramenta de segurança pública.
+ 
+8. A funcionalidade de localização automática depende da disponibilidade de sinal de celular. Na falta de sinal, recomendamos utilizar a opção “Meu Destino” que funciona no modo “off line”.
+ 
+Este produto foi desenvolvido pela empresa I4People
+www.i4people.com.br
+Se quiser solicitar a inclusão de informações relativas ao seu bairro neste Aplicativo ou colaborar com correções, por favor envie uma mensagem para safecity@i4people.com.br.</string>
+	<key>avisoLegal_SP</key>
+	<string>1. As informações contidas no SafeCity foram geradas a partir do cruzamento de dados disponibilizados pela Secretaria de Segurança Pública de São Paulo, matérias veiculadas nos jornais de São Paulo, publicações sobre segurança pública, dados fornecidos pelos departamentos de segurança de empresas de transporte público e entrevistas com agentes de Segurança Pública e associações comunitárias e de bairro.
+ 
+2. O material foi coletado no início do segundo semestre de 2011 e, por isso, os contatos telefônicos, tanto das delegacias de polícia quanto dos hospitais, podem mudar a qualquer momento, sem aviso prévio. A mudança de telefone das respectivas instituições não é de responsabilidade da I4People, desenvolvedora deste aplicativo.
+ 
+3. O SafeCity localiza o usuário assim que o aplicativo é acionado, através da triangulação de antenas. Caso o usuário prefira não ser localizado pelo aplicativo, deve utilizar função “Meu Destino”, que funciona em modo “off line”.
+ 
+4. A delimitação dos bairros em São Paulo pode variar dependendo do mapa utilizado. Comparando-se os mapas das Delegacias de Polícia, das Subprefeituras de São Paulo e mesmo segundo a indicação dos moradores,  encontram-se diferenças. Isso deriva, as vezes, em até três delimitações distintas para um mesmo bairro. A I4People optou por fazer uma análise dessas diferenças, mesclando as informações disponíveis, de forma a levar a informação da forma mais compreensível possível. Contudo, poderão ser encontradas distorções nos limites geográficos de cada bairro. A I4People mantém contínua atualização dessas informações.
+ 
+5. O destaque das incidências nos bairros não significa que estas sejam as mais frequentes no local, mas sim que são as que mais chamam a atenção naquela área, caracterizando-se como um problema de segurança pública. Por exemplo, furtos são ocorrências que prevalecem em todos os bairros, mas em alguns locais registram-se, além desse tipo de delito, outras incidências peculiares à região, que foram captadas e destacadas pela pesquisa realizada pela I4People.
+ 
+6. O alerta sobre a ocorrência de delitos em um determinado bairro não exclui a possibilidade da verificação de outros, tampouco visa estigmatizar o local. O objetivo do Aplicativo é alertar o cidadão e o poder público sobre os problemas de segurança pública encontrados na pesquisa realizada.
+ 
+7. O SafeCity é um aplicativo de caráter apenas informativo, baseada em fontes públicas e em entrevistas, criada com o objetivo ser um instrumento utilitário para a vida urbana. Não deve, em nenhuma hipótese, ser utilizado como ferramenta de segurança pública.
+ 
+8. A funcionalidade de localização automática depende da disponibilidade de sinal de celular. Na falta de sinal, recomendamos utilizar a opção “Meu Destino” que funciona no modo “off line”.
+ 
+Se quiser solicitar a inclusão de informações relativas ao seu bairro neste aplicativo ou colaborar com correções, por favor envie uma mensagem para safecity@i4people.com.br.
+ 
+Este produto foi desenvolvido pela empresa I4People
+www.i4people.com.br</string>
+	<key>city</key>
+	<string>${city}</string>
+	<key>host</key>
+	<string>http://186.202.69.109:8080</string>
+</dict>
+</plist>
