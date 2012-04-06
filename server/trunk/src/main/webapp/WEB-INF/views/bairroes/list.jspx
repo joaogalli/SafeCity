@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_br_com_safecity_server_entity_Bairro" items="${bairroes}" z="Ovxz0sv8ZX53NaaRA2JnspCTXWg=">
+        <table:table data="${bairroes}" id="l_br_com_safecity_server_entity_Bairro" path="/bairroes" z="xk4KYCxdcR617RxKyxL7pv7IMnY=">
+            <table:column id="c_br_com_safecity_server_entity_Bairro_nome" property="nome" z="pxytbQXTdL2sNeYE/NaZAWg2BvU="/>
+            <table:column id="c_br_com_safecity_server_entity_Bairro_zona" property="zona" z="WaYJkTXNMy0BPh0PMQNnzzcm9t4="/>
+            <table:column id="c_br_com_safecity_server_entity_Bairro_delito1" property="delito1" z="n3JSRXP/Sd1uvTyBzqdrJUzqhAc="/>
+            <table:column id="c_br_com_safecity_server_entity_Bairro_delito2" property="delito2" z="2F4BIErOqQ+c1dEwJpgkBSja7cI="/>
+            <table:column id="c_br_com_safecity_server_entity_Bairro_alertaEspecial" property="alertaEspecial" z="DXkJxwr8NHaz5Ld+exf9mGAV8zc="/>
+            <table:column id="c_br_com_safecity_server_entity_Bairro_cerca" property="cerca" z="sbh6ijE2bgI8nTf6oRI8JGW96iU="/>
+        </table:table>
+    </page:list>
+</div>

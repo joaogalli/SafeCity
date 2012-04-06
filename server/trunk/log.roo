@@ -1,0 +1,64 @@
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-07-18 15:02:34
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-07-18 15:02:38
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-07-18 15:10:03
+hint
+project --topLevelPackage br.com.safecity.server --projectName SafeCity
+persistence setup --database MYSQL --provider HIBERNATE --userName safecity --password safecity --databaseName safecity
+entity --class ~.entity.Bairro
+field string --fieldName nome --notNull true --unique true
+field string zona
+field string --fieldName delito1
+field string --fieldName delito2
+field string --fieldName alertaEspecial
+field string --fieldName dica1
+field string --fieldName dica2
+field string --fieldName dica3
+field string --fieldName dica4
+field string --fieldName delegaciaEndereco1
+field string --fieldName delegaciaTelefone1
+field string --fieldName delegaciaEndereco2
+field string --fieldName delegaciaTelefone2
+field string --fieldName hospitalEndereco1
+field string --fieldName hospitalTelefone1
+field string --fieldName hospitalEndereco2
+field string --fieldName hospitalTelefone2
+field string --fieldName hospitalEndereco3
+field string --fieldName hospitalTelefone3
+field string --fieldName cerca
+json all
+controller all --package ~.controller
+perform eclipse
+// script --file ../../../Desktop/safecity-script-roo.txt
+hint
+help
+security setup
+hint
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-07-18 15:23:09
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-10-13 14:49:50
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-10-13 14:51:33
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-13 13:14:25
+focus --class br.com.safecity.server.entity.Bairro
+field string --fieldName estado --notNull true
+perform command --mavenCommand install
+perform eclipse
+finder list
+finder add --finderName findBairroesByEstadoLike
+perform eclipse
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-13 14:52:58
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-17 16:08:18
+focus --class br.com.safecity.server.entity.Bairro
+field string --fieldName cidade
+finder list
+finder add findBairroesByCidadeEquals
+perform eclipse
+perform eclipse
+perform command --mavenCommand install
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-17 16:37:57
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-17 16:55:04
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-17 16:55:27

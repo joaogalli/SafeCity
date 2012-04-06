@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Tela de upload de arquivo para importação de dados.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+	<h1>SafeCity - Importação de dados de planilha</h1>
+
+	<form method="POST" action="./import/multiple">
+		<p>
+			Cidade: <select name="cidade" id="cidade">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+			</select>
+		</p>
+
+		<p>Zerar todos os registros da cidade selecionada?<br/>
+		<select name="apagarRegistros" id="apagarRegistros">
+			<option value="false">Não</option>
+			<option value="true">Sim</option>
+		</select>
+		</p>
+
+		<div>Dados (Copiar e colar todas as colunas da planilha):</div>
+		<textarea id="p" name="p" rows="30" cols="50"></textarea>
+		<input type="submit" name="Enviar" />
+	</form>
+</body>
+</html>

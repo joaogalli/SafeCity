@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_br_com_safecity_server_entity_Bairro" object="${bairro}" path="/bairroes" z="nBRjos/xXw+xIiVZm1+B4v4Am+Q=">
+        <field:display field="nome" id="s_br_com_safecity_server_entity_Bairro_nome" object="${bairro}" z="Rcb8IIEa+VyPeVN8/532tdrLbq4="/>
+        <field:display field="zona" id="s_br_com_safecity_server_entity_Bairro_zona" object="${bairro}" z="uPrRXZgHnuYBYsz1DbF5pjOdAUk="/>
+        <field:display field="delito1" id="s_br_com_safecity_server_entity_Bairro_delito1" object="${bairro}" z="YjgahfALJ45oMie/opW2Wtf4K6k="/>
+        <field:display field="delito2" id="s_br_com_safecity_server_entity_Bairro_delito2" object="${bairro}" z="2Be1YTzZYSqNs8A9fvw5NiZs0hY="/>
+        <field:display field="alertaEspecial" id="s_br_com_safecity_server_entity_Bairro_alertaEspecial" object="${bairro}" z="e1WdQ0JyGiGUhfI1EvuP3Wk9nsw="/>
+        <field:display field="dica1" id="s_br_com_safecity_server_entity_Bairro_dica1" object="${bairro}" z="h2VKYqSzL3KdHNi9g+c5RV89Mdw="/>
+        <field:display field="dica2" id="s_br_com_safecity_server_entity_Bairro_dica2" object="${bairro}" z="ZAaS9oibpPz1JRH4na25BHFgSuc="/>
+        <field:display field="dica3" id="s_br_com_safecity_server_entity_Bairro_dica3" object="${bairro}" z="6Y8w5xGsUadsPxZO60RNDOe+UGA="/>
+        <field:display field="dica4" id="s_br_com_safecity_server_entity_Bairro_dica4" object="${bairro}" z="uOD7cRja1i01qp8tmGfLcIGHpGM="/>
+        <field:display field="delegaciaEndereco1" id="s_br_com_safecity_server_entity_Bairro_delegaciaEndereco1" object="${bairro}" z="namU2kvK1BLR4YCAtKyVeiKEcOw="/>
+        <field:display field="delegaciaTelefone1" id="s_br_com_safecity_server_entity_Bairro_delegaciaTelefone1" object="${bairro}" z="HOLGo0JOQEfIhZKPiaXnMOlWfZQ="/>
+        <field:display field="delegaciaEndereco2" id="s_br_com_safecity_server_entity_Bairro_delegaciaEndereco2" object="${bairro}" z="A5IdskgMJYjvDRsV4cd+yTx1Zmo="/>
+        <field:display field="delegaciaTelefone2" id="s_br_com_safecity_server_entity_Bairro_delegaciaTelefone2" object="${bairro}" z="QEAMMbZT2fNTIARSN8mqn8oS184="/>
+        <field:display field="hospitalEndereco1" id="s_br_com_safecity_server_entity_Bairro_hospitalEndereco1" object="${bairro}" z="15pkoungVaBX0wr1kuHHOixl0Zc="/>
+        <field:display field="hospitalTelefone1" id="s_br_com_safecity_server_entity_Bairro_hospitalTelefone1" object="${bairro}" z="XQBiACQp1yCBEa4OUqJeJjPUidg="/>
+        <field:display field="hospitalEndereco2" id="s_br_com_safecity_server_entity_Bairro_hospitalEndereco2" object="${bairro}" z="HSp1h+P6vljEnajvSZ5RF3QY8kc="/>
+        <field:display field="hospitalTelefone2" id="s_br_com_safecity_server_entity_Bairro_hospitalTelefone2" object="${bairro}" z="SiztSPNCUPaXhOF1aPZUdSx1bus="/>
+        <field:display field="hospitalEndereco3" id="s_br_com_safecity_server_entity_Bairro_hospitalEndereco3" object="${bairro}" z="wjT5u3OI23DaBYGv4J/w6Q5sd8I="/>
+        <field:display field="hospitalTelefone3" id="s_br_com_safecity_server_entity_Bairro_hospitalTelefone3" object="${bairro}" z="WchRK3cDYhopBY9PDcEAn6BaYLM="/>
+        <field:display field="cerca" id="s_br_com_safecity_server_entity_Bairro_cerca" object="${bairro}" z="FOH7lUbq8MY1Ivk4BB3BMZq2IuI="/>
+        <field:display field="cidade" id="s_br_com_safecity_server_entity_Bairro_cidade" object="${bairro}" z="MJnMWUDW5PD/zjE52Yy3wxuWNMg="/>
+    </page:show>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="bairroes/list">
+        <put-attribute name="body" value="/WEB-INF/views/bairroes/list.jspx"/>
+    </definition>
+<definition extends="default" name="bairroes/show">
+        <put-attribute name="body" value="/WEB-INF/views/bairroes/show.jspx"/>
+    </definition>
+<definition extends="default" name="bairroes/create">
+        <put-attribute name="body" value="/WEB-INF/views/bairroes/create.jspx"/>
+    </definition>
+<definition extends="default" name="bairroes/update">
+        <put-attribute name="body" value="/WEB-INF/views/bairroes/update.jspx"/>
+    </definition>
+<definition extends="default" name="bairroes/findBairroesByEstadoLike">
+        <put-attribute name="body" value="/WEB-INF/views/bairroes/findBairroesByEstadoLike.jspx"/>
+    </definition>
+<definition extends="default" name="bairroes/findBairroesByCidadeEquals">
+        <put-attribute name="body" value="/WEB-INF/views/bairroes/findBairroesByCidadeEquals.jspx"/>
+    </definition>
+</tiles-definitions>

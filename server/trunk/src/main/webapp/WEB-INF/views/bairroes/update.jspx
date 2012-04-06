@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_br_com_safecity_server_entity_Bairro" modelAttribute="bairro" path="/bairroes" versionField="Version" z="eU3i2NbeKvo/M0nLCLtfS6wBN9c=">
+        <field:input field="nome" id="c_br_com_safecity_server_entity_Bairro_nome" required="true" z="Cw4/Etj3S0uZsVyG5RwjlVm8Q1I="/>
+        <field:input field="zona" id="c_br_com_safecity_server_entity_Bairro_zona" z="DPTVPqTHlmgG13JRRfv2l211PMU="/>
+        <field:input field="delito1" id="c_br_com_safecity_server_entity_Bairro_delito1" z="yp6rOzJwAJkY0JuGC2MLnJQd4YY="/>
+        <field:input field="delito2" id="c_br_com_safecity_server_entity_Bairro_delito2" z="q2pqWGk1ETOs3//3MEW660tH6VI="/>
+        <field:input field="alertaEspecial" id="c_br_com_safecity_server_entity_Bairro_alertaEspecial" z="GhrpD2cg69AxFJCrtmX/fEcdOTQ="/>
+        <field:input field="dica1" id="c_br_com_safecity_server_entity_Bairro_dica1" z="QvbdTCGiL44c5HlbTgZZxn8IANI="/>
+        <field:input field="dica2" id="c_br_com_safecity_server_entity_Bairro_dica2" z="8OmzXjY+5XlBIqsOfvOY20dFVYo="/>
+        <field:input field="dica3" id="c_br_com_safecity_server_entity_Bairro_dica3" z="xtLXrMa+9Vuq44Wxdb1dTvld9pw="/>
+        <field:input field="dica4" id="c_br_com_safecity_server_entity_Bairro_dica4" z="u32CueOt3uqDFUnJSSgwnKUEB2g="/>
+        <field:input field="delegaciaEndereco1" id="c_br_com_safecity_server_entity_Bairro_delegaciaEndereco1" z="aRDj0wO9tW4kBZrdf7HBe6WbHZA="/>
+        <field:input field="delegaciaTelefone1" id="c_br_com_safecity_server_entity_Bairro_delegaciaTelefone1" z="pzHmbWdu1hM5adXD20nveRmR17g="/>
+        <field:input field="delegaciaEndereco2" id="c_br_com_safecity_server_entity_Bairro_delegaciaEndereco2" z="vPjS9SZHhBqFK1Dov1sdBTnMfi8="/>
+        <field:input field="delegaciaTelefone2" id="c_br_com_safecity_server_entity_Bairro_delegaciaTelefone2" z="gxXGDwr/sAfcoHa+ShlcyrUsmBI="/>
+        <field:input field="hospitalEndereco1" id="c_br_com_safecity_server_entity_Bairro_hospitalEndereco1" z="ZO2KZNv0QGk4KkjLqOWeTPQZ8a8="/>
+        <field:input field="hospitalTelefone1" id="c_br_com_safecity_server_entity_Bairro_hospitalTelefone1" z="Lah2pqYVdmDixwOZRYHqGl7NBu4="/>
+        <field:input field="hospitalEndereco2" id="c_br_com_safecity_server_entity_Bairro_hospitalEndereco2" z="OOdkDNSh7Facj7D5IwoyWv0SzII="/>
+        <field:input field="hospitalTelefone2" id="c_br_com_safecity_server_entity_Bairro_hospitalTelefone2" z="LyghPi9auKpV+rBmSDKDjnKzagk="/>
+        <field:input field="hospitalEndereco3" id="c_br_com_safecity_server_entity_Bairro_hospitalEndereco3" z="9LZrbxNVTeaOkklfisKXjUyn37w="/>
+        <field:input field="hospitalTelefone3" id="c_br_com_safecity_server_entity_Bairro_hospitalTelefone3" z="n9YERObl3nd5fId7namNiNqjbrs="/>
+        <field:input field="cerca" id="c_br_com_safecity_server_entity_Bairro_cerca" z="ZdrwWVoIfxeA45v7VYFLcg8LgP0="/>
+        <field:input field="cidade" id="c_br_com_safecity_server_entity_Bairro_cidade" required="true" z="/AN/1yjUZs/icSbujwZsu5yNbrk="/>
+    </form:update>
+</div>
