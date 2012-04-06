@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/button_bar_gradient"
+        >
+
+        <TextView
+            android:id="@+id/disclaimerToolbarOption"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableTop="@drawable/disclaimer"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/toolbar_disclaimer"
+            android:textColor="@drawable/text_states"
+            android:textSize="10dip"
+            android:textStyle="bold" 
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/configuracoesToolbarOption"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backgound_states"
+            android:clickable="true"
+            android:drawableTop="@drawable/configuracoes"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/toolbar_configuracoes"
+            android:textColor="@drawable/text_states"
+            android:textSize="10dip"
+            android:textStyle="bold" 
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/policiaToolbarOption"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backgound_states"
+            android:clickable="true"
+            android:drawableTop="@drawable/policia"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/toolbar_policia"
+            android:textColor="@drawable/text_states"
+            android:textSize="10dip"
+            android:textStyle="bold" 
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/hospitalToolbarOption"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backgound_states"
+            android:clickable="true"
+            android:drawableTop="@drawable/hospital"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/toolbar_hospital"
+            android:textColor="@drawable/text_states"
+            android:textSize="10dip"
+            android:textStyle="bold" 
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/personalToolbarOption"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backgound_states"
+            android:clickable="true"
+            android:drawableTop="@drawable/personal"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/toolbar_personal"
+            android:textColor="@drawable/text_states"
+            android:textSize="10dip"
+            android:textStyle="bold" 
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+</merge>

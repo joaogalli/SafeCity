@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/loading_backgroundImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m_background_sp_localizando" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="104dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/m_icone_localizando" />
+
+        <ImageView
+            android:id="@+id/loading_cityname"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/m_sp_localizando" />
+
+        <ImageView
+            android:id="@+id/loadingimage"
+            android:layout_width="100dp"
+            android:layout_margin="1dp"
+            android:layout_height="12dp" />
+
+        <ImageView
+            android:id="@+id/loading_localizandotext"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/m_preto_localizando" />
+    </LinearLayout>
+
+</RelativeLayout>
