@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
@@ -38,29 +37,69 @@ public class LoadingActivity extends Activity implements Runnable, LocationListe
 
 	private Double DESIRED_ACCURACY;
 
+	private Handler loadingTimeoutHandler;
+
+	private ImageView loadingImage;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		Log.d(TAG, ".onCreate()");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.loading);
 
 		configureCityResources();
 
+		LOADING_TIMEOUT = ContextUtils.getFromMetadata(this, R.string.meta_loading_timeout, 15000);
+		DESIRED_ACCURACY = new Double((Integer) ContextUtils.getFromMetadata(this, R.string.meta_desired_accuracy, 200));
+	}
+
+	@Override
+	public void onBackPressed() {
+		Log.d(TAG, "onBackPressed()");
+		stopLocationUpdatesAndTimeout();
+		this.finish();
+	}
+
+	private void stopLocationUpdatesAndTimeout() {
+		try {
+			locationManager.removeUpdates(this);
+		}
+		catch (Exception e) {
+			Log.e(TAG, "Erro ao remover location listener.", e);
+		}
+
+		try {
+			loadingTimeoutHandler.removeCallbacks(this);
+		}
+		catch (Exception e) {
+			Log.e(TAG, "Erro ao parar handler de timeout.", e);
+		}
+	}
+
+	@Override
+	protected void onPostResume() {
+		super.onPostResume();
+
 		startLoadingAnimation();
 
 		activateLocationManager();
 
-		LOADING_TIMEOUT = ContextUtils.getFromMetadata(this, R.string.meta_loading_timeout, 15000);
-		DESIRED_ACCURACY = new Double((Integer) ContextUtils.getFromMetadata(this, R.string.meta_desired_accuracy, 200));
-
-		Handler h = new Handler();
-		h.postDelayed(this, LOADING_TIMEOUT);
+		loadingTimeoutHandler = new Handler();
+		loadingTimeoutHandler.postDelayed(this, LOADING_TIMEOUT);
 	}
 
 	private void startLoadingAnimation() {
-		ImageView loadingImage = (ImageView) findViewById(R.id.loadingimage);
+		Log.d(TAG, ".startLoadingAnimation()");
+		loadingImage = (ImageView) findViewById(R.id.loadingimage);
 		loadingImage.setBackgroundResource(R.drawable.loading_animation);
 
-		((AnimationDrawable) loadingImage.getBackground()).start();
+		((AnimationDrawable) loadingImage.getBackground()).setOneShot(false);
+
+		loadingImage.post(new Thread() {
+			public void run() {
+				((AnimationDrawable) loadingImage.getBackground()).start();
+			}
+		});
 	}
 
 	private void configureCityResources() {
@@ -106,10 +145,10 @@ public class LoadingActivity extends Activity implements Runnable, LocationListe
 
 	@Override
 	public void run() {
-		Log.i(TAG, "Desired Accuracy: " + DESIRED_ACCURACY +  " - Last Best: " + lastBestAccuracy);
-		
+		Log.i(TAG, "Desired Accuracy: " + DESIRED_ACCURACY + " - Last Best: " + lastBestAccuracy);
+
 		if (lastBestAccuracy < DESIRED_ACCURACY.doubleValue()) {
-			locationManager.removeUpdates(this);
+			stopLocationUpdatesAndTimeout();
 
 			FindBairroByLocationTask task = new FindBairroByLocationTask(this) {
 				@Override
@@ -131,14 +170,14 @@ public class LoadingActivity extends Activity implements Runnable, LocationListe
 				}
 			};
 
-			// TODO passar coordenadas locais
 			// Mock para vila Mariana: "-23.5997", "-46.6322"
+			// task.execute("-23.5997", "-46.6322");
+
 			task.execute(Double.toString(latitude), Double.toString(longitude));
 		}
 		else {
 			Log.w(TAG, "Post delayed.");
-			Handler h = new Handler();
-			h.postDelayed(this, LOADING_TIMEOUT);
+			loadingTimeoutHandler.postDelayed(this, LOADING_TIMEOUT);
 		}
 	}
 
@@ -173,6 +212,7 @@ public class LoadingActivity extends Activity implements Runnable, LocationListe
 
 	public void onSuccess(String latitude, String longitude, Bundle bairro) {
 		// Chama o BairroActivity
+		stopLocationUpdatesAndTimeout();
 
 		Intent intent = new Intent(this, BairroDetailActivity.class);
 		intent.putExtra(BairroDetailActivity.BAIRRO, bairro);

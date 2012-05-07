@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <br.com.i4people.safecity.component.ScreenBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/bairroDetail_toolbar" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/banner_itau" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/logo_interno" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="@string/bairroDetail_labelBairro"
+                android:textColor="@color/bairroDetail_label" />
+
+            <EditText
+                android:id="@+id/bairrodetail_bairroText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="false"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold" >
+            </EditText>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="@string/bairroDetail_labelocorrencia1"
+                android:textColor="@color/bairroDetail_label" />
+
+            <EditText
+                android:id="@+id/bairrodetail_ocorrencia1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="false"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold" >
+            </EditText>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="@string/bairroDetail_labelocorrencia2"
+                android:textColor="@color/bairroDetail_label" />
+
+            <EditText
+                android:id="@+id/bairrodetail_ocorrencia2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="false"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold" >
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/bairroDetail_dicasButton"
+                    android:layout_width="@dimen/bairroDetail_buttonWidth"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/dicas_icon"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="buttonsClick"
+                    android:text="@string/bairroDetail_dicasIcon"
+                    android:textColor="@drawable/detailbairro_icons"
+                    android:textSize="@dimen/bairroDetail_buttonTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bairroDetail_alertaEspecialButton"
+                    android:layout_width="@dimen/bairroDetail_buttonWidth"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/alerta_especial"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="buttonsClick"
+                    android:text="@string/bairroDetail_alertaEspecialIcon"
+                    android:textColor="@drawable/detailbairro_icons"
+                    android:textSize="@dimen/bairroDetail_buttonTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bairroDetail_emergenciaButton"
+                    android:layout_width="@dimen/bairroDetail_buttonWidth"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/emergencia_icon"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="buttonsClick"
+                    android:text="@string/bairroDetail_emergenciaIcon"
+                    android:textColor="@drawable/detailbairro_icons"
+                    android:textSize="@dimen/bairroDetail_buttonTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bairroDetail_meuDestinoButton"
+                    android:layout_width="@dimen/bairroDetail_buttonWidth"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/meu_destino"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="buttonsClick"
+                    android:text="@string/bairroDetail_meuDestinoIcon"
+                    android:textColor="@drawable/detailbairro_icons"
+                    android:textSize="@dimen/bairroDetail_buttonTextSize"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <br.com.i4people.safecity.component.Toolbar
+        android:id="@+id/bairroDetail_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbarHeight"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

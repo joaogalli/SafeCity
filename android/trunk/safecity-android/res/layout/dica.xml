@@ -58,7 +58,7 @@
     <br.com.i4people.safecity.component.Toolbar
         android:id="@+id/dica_toolbar"
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/toolbarHeight"
         android:layout_alignParentBottom="true"
         android:background="@drawable/button_bar_gradient" />
 

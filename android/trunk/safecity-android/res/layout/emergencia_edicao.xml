@@ -11,7 +11,7 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_alignBottom="@+id/emergencia_edicao_toolbar"
+        android:layout_above="@+id/emergencia_edicao_toolbar"
         android:padding="5dp"
         android:paddingTop="10dp" >
 
@@ -71,7 +71,7 @@
     <br.com.i4people.safecity.component.Toolbar
         android:id="@+id/emergencia_edicao_toolbar"
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/toolbarHeight"
         android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
