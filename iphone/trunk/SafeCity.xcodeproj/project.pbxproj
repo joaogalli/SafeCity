@@ -181,32 +181,32 @@
 		5200A424132BF854005BEA08 /* Bairro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bairro.h; sourceTree = "<group>"; };
 		5200A425132BF854005BEA08 /* Bairro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bairro.m; sourceTree = "<group>"; };
 		5200A6A2132C87A2005BEA08 /* RequestCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCallback.h; sourceTree = "<group>"; };
-		52043665147066A4007D310D /* background-tela-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-RJ.png"; path = "../../../Dropbox/Projects/SafeCity-arte/background-tela-RJ.png"; sourceTree = "<group>"; };
-		52043666147066A4007D310D /* background-tela-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-SP.png"; path = "../../../Dropbox/Projects/SafeCity-arte/background-tela-SP.png"; sourceTree = "<group>"; };
+		52043665147066A4007D310D /* background-tela-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-RJ.png"; path = "../../../../Dropbox/Projects/SafeCity-arte/background-tela-RJ.png"; sourceTree = "<group>"; };
+		52043666147066A4007D310D /* background-tela-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-SP.png"; path = "../../../../Dropbox/Projects/SafeCity-arte/background-tela-SP.png"; sourceTree = "<group>"; };
 		520436BB147132B9007D310D /* SafeCity RJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeCity RJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52139CBE1332D0A000B28689 /* FindAllBairros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindAllBairros.h; sourceTree = "<group>"; };
 		52139CBF1332D0A000B28689 /* FindAllBairros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindAllBairros.m; sourceTree = "<group>"; };
 		52139FA913381B6800B28689 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		5214797213C4983A0092A075 /* localizando-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "localizando-SP.png"; path = "../../Dropbox/Projects/SafeCity-arte/localizando-SP.png"; sourceTree = SOURCE_ROOT; };
-		5214797A13C498F20092A075 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = "../../Dropbox/Projects/SafeCity-arte/default.png"; sourceTree = SOURCE_ROOT; };
-		521479E513C4A9140092A075 /* disclaimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclaimer.png; path = "../../Dropbox/Projects/SafeCity-arte/disclaimer.png"; sourceTree = SOURCE_ROOT; };
-		521479E913C4A9BE0092A075 /* configuracoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = configuracoes.png; path = "../../Dropbox/Projects/SafeCity-arte/configuracoes.png"; sourceTree = SOURCE_ROOT; };
-		521479F513C4ABF00092A075 /* policia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = policia.png; path = "../../Dropbox/Projects/SafeCity-arte/policia.png"; sourceTree = SOURCE_ROOT; };
-		521479FD13C4AD430092A075 /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hospital.png; path = "../../Dropbox/Projects/SafeCity-arte/hospital.png"; sourceTree = SOURCE_ROOT; };
-		52147A0113C4AE5A0092A075 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personal.png; path = "../../Dropbox/Projects/SafeCity-arte/personal.png"; sourceTree = SOURCE_ROOT; };
-		52147A5413C4E1A90092A075 /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone.png; path = "../../Dropbox/Projects/SafeCity-arte/icone.png"; sourceTree = SOURCE_ROOT; };
-		52147A5813C4E4E30092A075 /* logo-interno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-interno.png"; path = "../../Dropbox/Projects/SafeCity-arte/logo-interno.png"; sourceTree = SOURCE_ROOT; };
-		52147A5C13C4F4B30092A075 /* dicas-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dicas-icon.png"; path = "../../Dropbox/Projects/SafeCity-arte/dicas-icon.png"; sourceTree = SOURCE_ROOT; };
-		52147A6C13C4F8250092A075 /* alerta-especial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alerta-especial.png"; path = "../../Dropbox/Projects/SafeCity-arte/alerta-especial.png"; sourceTree = SOURCE_ROOT; };
-		52147A6E13C4F8350092A075 /* emergencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emergencia.png; path = "../../Dropbox/Projects/SafeCity-arte/emergencia.png"; sourceTree = SOURCE_ROOT; };
-		52147A6F13C4F8350092A075 /* meu-destino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meu-destino.png"; path = "../../Dropbox/Projects/SafeCity-arte/meu-destino.png"; sourceTree = SOURCE_ROOT; };
-		52147A8D13C5F83B0092A075 /* loading-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-1.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-1.png"; sourceTree = SOURCE_ROOT; };
-		52147A8E13C5F83B0092A075 /* loading-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-2.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-2.png"; sourceTree = SOURCE_ROOT; };
-		52147A8F13C5F83B0092A075 /* loading-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-3.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-3.png"; sourceTree = SOURCE_ROOT; };
-		52147A9013C5F83B0092A075 /* loading-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-4.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-4.png"; sourceTree = SOURCE_ROOT; };
-		52147A9113C5F83B0092A075 /* loading-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-5.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-5.png"; sourceTree = SOURCE_ROOT; };
-		52147A9213C5F83B0092A075 /* loading-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-6.png"; path = "../../Dropbox/Projects/SafeCity-arte/loading-6.png"; sourceTree = SOURCE_ROOT; };
-		52147BBA13C73C430092A075 /* banner-itau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner-itau.png"; path = "../../Dropbox/Projects/SafeCity-arte/banner-itau.png"; sourceTree = SOURCE_ROOT; };
+		5214797213C4983A0092A075 /* localizando-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "localizando-SP.png"; path = "../../../Dropbox/Projects/SafeCity-arte/localizando-SP.png"; sourceTree = SOURCE_ROOT; };
+		5214797A13C498F20092A075 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = "../../../Dropbox/Projects/SafeCity-arte/default.png"; sourceTree = SOURCE_ROOT; };
+		521479E513C4A9140092A075 /* disclaimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclaimer.png; path = "../../../Dropbox/Projects/SafeCity-arte/disclaimer.png"; sourceTree = SOURCE_ROOT; };
+		521479E913C4A9BE0092A075 /* configuracoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = configuracoes.png; path = "../../../Dropbox/Projects/SafeCity-arte/configuracoes.png"; sourceTree = SOURCE_ROOT; };
+		521479F513C4ABF00092A075 /* policia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = policia.png; path = "../../../Dropbox/Projects/SafeCity-arte/policia.png"; sourceTree = SOURCE_ROOT; };
+		521479FD13C4AD430092A075 /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hospital.png; path = "../../../Dropbox/Projects/SafeCity-arte/hospital.png"; sourceTree = SOURCE_ROOT; };
+		52147A0113C4AE5A0092A075 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personal.png; path = "../../../Dropbox/Projects/SafeCity-arte/personal.png"; sourceTree = SOURCE_ROOT; };
+		52147A5413C4E1A90092A075 /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone.png; path = "../../../Dropbox/Projects/SafeCity-arte/icone.png"; sourceTree = SOURCE_ROOT; };
+		52147A5813C4E4E30092A075 /* logo-interno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-interno.png"; path = "../../../Dropbox/Projects/SafeCity-arte/logo-interno.png"; sourceTree = SOURCE_ROOT; };
+		52147A5C13C4F4B30092A075 /* dicas-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dicas-icon.png"; path = "../../../Dropbox/Projects/SafeCity-arte/dicas-icon.png"; sourceTree = SOURCE_ROOT; };
+		52147A6C13C4F8250092A075 /* alerta-especial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alerta-especial.png"; path = "../../../Dropbox/Projects/SafeCity-arte/alerta-especial.png"; sourceTree = SOURCE_ROOT; };
+		52147A6E13C4F8350092A075 /* emergencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emergencia.png; path = "../../../Dropbox/Projects/SafeCity-arte/emergencia.png"; sourceTree = SOURCE_ROOT; };
+		52147A6F13C4F8350092A075 /* meu-destino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meu-destino.png"; path = "../../../Dropbox/Projects/SafeCity-arte/meu-destino.png"; sourceTree = SOURCE_ROOT; };
+		52147A8D13C5F83B0092A075 /* loading-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-1.png"; path = "../../../Dropbox/Projects/SafeCity-arte/loading-1.png"; sourceTree = SOURCE_ROOT; };
+		52147A8E13C5F83B0092A075 /* loading-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-2.png"; path = "../../../Dropbox/Projects/SafeCity-arte/loading-2.png"; sourceTree = SOURCE_ROOT; };
+		52147A8F13C5F83B0092A075 /* loading-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-3.png"; path = "../../../Dropbox/Projects/SafeCity-arte/loading-3.png"; sourceTree = SOURCE_ROOT; };
+		52147A9013C5F83B0092A075 /* loading-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-4.png"; path = "../../../Dropbox/Projects/SafeCity-arte/loading-4.png"; sourceTree = SOURCE_ROOT; };
+		52147A9113C5F83B0092A075 /* loading-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-5.png"; path = "../../../Dropbox/Projects/SafeCity-arte/loading-5.png"; sourceTree = SOURCE_ROOT; };
+		52147A9213C5F83B0092A075 /* loading-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading-6.png"; path = "../../../Dropbox/Projects/SafeCity-arte/loading-6.png"; sourceTree = SOURCE_ROOT; };
+		52147BBA13C73C430092A075 /* banner-itau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner-itau.png"; path = "../../../Dropbox/Projects/SafeCity-arte/banner-itau.png"; sourceTree = SOURCE_ROOT; };
 		522015C8145AD85A0059F590 /* icone-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-57.png"; path = "../icone-57.png"; sourceTree = "<group>"; };
 		522015CA145AD8610059F590 /* icone-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-114.png"; path = "../icone-114.png"; sourceTree = "<group>"; };
 		5228810D137333F800414DC8 /* BairroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BairroTableViewController.h; sourceTree = "<group>"; };
@@ -260,7 +260,7 @@
 		5299178E138ED94A00EB1796 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
 		5299178F138ED94A00EB1796 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
 		52991790138ED94A00EB1796 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		52D541D3146450B300107DCC /* localizando-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "localizando-RJ.png"; path = "../../../Dropbox/Projects/SafeCity-arte/localizando-RJ.png"; sourceTree = "<group>"; };
+		52D541D3146450B300107DCC /* localizando-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "localizando-RJ.png"; path = "../../../../Dropbox/Projects/SafeCity-arte/localizando-RJ.png"; sourceTree = "<group>"; };
 		52EAE4511492C5D30044F946 /* BairroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BairroDetailViewController.h; sourceTree = "<group>"; };
 		52EAE4521492C5D30044F946 /* BairroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BairroDetailViewController.m; sourceTree = "<group>"; };
 		52EAE4531492C5D40044F946 /* BairroDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BairroDetailViewController.xib; path = Classes/BairroDetailViewController.xib; sourceTree = "<group>"; };
@@ -442,7 +442,9 @@
 		5214784B13C398C40092A075 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				5214797213C4983A0092A075 /* localizando-SP.png */,
+				52147A6C13C4F8250092A075 /* alerta-especial.png */,
+				52043665147066A4007D310D /* background-tela-RJ.png */,
+				52043666147066A4007D310D /* background-tela-SP.png */,
 				5214797A13C498F20092A075 /* default.png */,
 				521479E513C4A9140092A075 /* disclaimer.png */,
 				521479E913C4A9BE0092A075 /* configuracoes.png */,
@@ -452,7 +454,6 @@
 				52147A5413C4E1A90092A075 /* icone.png */,
 				52147A5813C4E4E30092A075 /* logo-interno.png */,
 				52147A5C13C4F4B30092A075 /* dicas-icon.png */,
-				52147A6C13C4F8250092A075 /* alerta-especial.png */,
 				52147A6E13C4F8350092A075 /* emergencia.png */,
 				52147A6F13C4F8350092A075 /* meu-destino.png */,
 				52147A8D13C5F83B0092A075 /* loading-1.png */,
@@ -462,12 +463,11 @@
 				52147A9113C5F83B0092A075 /* loading-5.png */,
 				52147A9213C5F83B0092A075 /* loading-6.png */,
 				52147BBA13C73C430092A075 /* banner-itau.png */,
+				5214797213C4983A0092A075 /* localizando-SP.png */,
 				52D541D3146450B300107DCC /* localizando-RJ.png */,
 				5267226F146310BF00228391 /* maisdicas.png */,
 				522015CA145AD8610059F590 /* icone-114.png */,
 				522015C8145AD85A0059F590 /* icone-57.png */,
-				52043665147066A4007D310D /* background-tela-RJ.png */,
-				52043666147066A4007D310D /* background-tela-SP.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
