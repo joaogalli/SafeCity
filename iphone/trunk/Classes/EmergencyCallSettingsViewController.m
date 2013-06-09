@@ -11,7 +11,7 @@
 
 @implementation EmergencyCallSettingsViewController
 
-@synthesize telefoneField;
+@synthesize telefoneField, formBackgroundImage;
 
 NSString * const EmergencyCallFileName = @"EmergencyCallFileName";
 

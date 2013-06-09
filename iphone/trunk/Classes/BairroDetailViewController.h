@@ -16,7 +16,8 @@
 
 @property (retain, nonatomic) NSDictionary *locationBairro;
 @property (nonatomic, retain) IBOutlet UITextField *nomeLabel, *delito1Label, *delito2Label;
-@property (nonatomic, retain) IBOutlet UIImageView *dicasView, *alertaEspecialView, *emergenciaView, *meuDestinoView, *formBackgroundImage;
+@property (nonatomic, retain) IBOutlet UIImageView *dicasView, *alertaEspecialView, *emergenciaView, *meuDestinoView;
+@property (nonatomic, retain) IBOutlet UIImageView *formBackgroundImage;
 
 -(void) setBairro: (NSDictionary*) bairro;
 

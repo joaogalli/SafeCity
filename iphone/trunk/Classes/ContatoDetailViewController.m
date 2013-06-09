@@ -11,7 +11,7 @@
 
 @implementation ContatoDetailViewController
 
-@synthesize nomeField, telefoneField, contatoNumber;
+@synthesize nomeField, telefoneField, contatoNumber, formBackgroundImage;
 
 NSString * const ContatoFileName = @"ContatoFileName%i";
 

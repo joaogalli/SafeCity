@@ -11,7 +11,7 @@
 
 @implementation DicaDetailViewController
 
-@synthesize bairro, dicaLabel, textoLabel, dicas, maisDicas;
+@synthesize bairro, dicaLabel, textoLabel, dicas, maisDicas, formBackgroundImage;
 
 - (id) initWithBairro: (NSDictionary*) bairroParam {
 	self = [super init];

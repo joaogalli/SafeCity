@@ -11,7 +11,7 @@
 
 @implementation PoliciaDetailViewController
 
-@synthesize bairro, items;
+@synthesize bairro, items, formBackgroundImage;
 
 - (id) initWithBairro: (NSDictionary*) bairroDic {
 	self = [super init];

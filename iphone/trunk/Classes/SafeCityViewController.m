@@ -35,8 +35,8 @@
     NSLog(@"SafeCityViewController.viewDidLoad");
     
     [self initLoadingImage];
-    
-    backgroundImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"localizando-%@.png", 
+
+    backgroundImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"localizando-%@.png",
                                                  [Preferences get: @"city"]]];
     
     version.text = [Preferences get:@"CFBundleShortVersionString"];
@@ -166,7 +166,7 @@
             [self searchForBairroWithLatitude:latitude andLongitude:longitude];
         }
     } else {
-        NSLog(@"opa");
+        NSLog(@"Ainda nao capturou o maximo de coordenadas.");
     }
 }
 
@@ -207,6 +207,7 @@
                                             message:@"Não foi encontrado bairro para a sua localização." 
                                             delegate:self cancelButtonTitle:@"Listar todos os bairros" 
                                             otherButtonTitles:nil];
+            alert.tag = 2;
             [alert show];
             [alert release];
 		}
@@ -222,17 +223,18 @@
 	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Problemas de conexão" message:errorMessage 
 												   delegate:self cancelButtonTitle:@"Tentar novamente." 
 										  otherButtonTitles:nil];
+    alert.tag = 1;
 	[alert show];
 	[alert release];
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     NSLog(@"SafeCityViewController.alertViewclickedButtonAtIndex");
-    
-	if (alertView.title == @"Problemas de conexão") {
+
+	if (alertView.tag == 1) {
         [self startStandardUpdates];
 	}
-	if (alertView.title == @"Bairro não encontrado.") {
+	if (alertView.tag == 2) {
 		//[self hideLoading];
         [self showMeuDestino:nil];
 	}

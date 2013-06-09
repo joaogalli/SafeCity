@@ -181,7 +181,7 @@
 		5200A424132BF854005BEA08 /* Bairro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bairro.h; sourceTree = "<group>"; };
 		5200A425132BF854005BEA08 /* Bairro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bairro.m; sourceTree = "<group>"; };
 		5200A6A2132C87A2005BEA08 /* RequestCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCallback.h; sourceTree = "<group>"; };
-		52043665147066A4007D310D /* background-tela-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-RJ.png"; path = "../../../../Dropbox/Projects/SafeCity-arte/background-tela-RJ.png"; sourceTree = "<group>"; };
+		52043665147066A4007D310D /* background-tela-RJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-RJ.png"; path = "../images/background-tela-RJ.png"; sourceTree = "<group>"; };
 		52043666147066A4007D310D /* background-tela-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-tela-SP.png"; path = "../../../../Dropbox/Projects/SafeCity-arte/background-tela-SP.png"; sourceTree = "<group>"; };
 		520436BB147132B9007D310D /* SafeCity RJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeCity RJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52139CBE1332D0A000B28689 /* FindAllBairros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindAllBairros.h; sourceTree = "<group>"; };

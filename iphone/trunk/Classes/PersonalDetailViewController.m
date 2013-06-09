@@ -15,6 +15,7 @@
 @synthesize contato1Label, contato2Label, contato3Label;
 @synthesize ligar1Button, ligar2Button, ligar3Button;
 @synthesize contato1, contato2, contato3;
+@synthesize formBackgroundImage;
 
 - (void)viewDidLoad {
     [super viewDidLoad];

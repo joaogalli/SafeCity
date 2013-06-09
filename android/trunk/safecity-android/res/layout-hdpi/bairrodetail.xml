@@ -2,12 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@android:color/white">
+    android:background="@android:color/white" >
 
-	<br.com.i4people.safecity.component.ScreenBackground
-	    android:layout_width="match_parent"
-	    android:layout_height="match_parent"
-	    />
+    <br.com.i4people.safecity.component.ScreenBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -16,12 +15,32 @@
         android:gravity="center_horizontal"
         android:orientation="vertical" >
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginBottom="5dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/banner_itau" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/orange"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/bairroDetail_anuncieAqui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/anuncie_aqui"
+                    android:textColor="@color/bairrodetail_anuncieaqui_fontcolor"
+                    android:onClick="anuncieAquiCall" />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -98,8 +117,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:padding="2dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:padding="2dp" >
 
             <TextView
                 android:id="@+id/bairroDetail_dicasButton"
@@ -110,12 +129,12 @@
                 android:drawableTop="@drawable/dicas_icon"
                 android:focusable="true"
                 android:gravity="center"
+                android:onClick="buttonsClick"
                 android:text="@string/bairroDetail_dicasIcon"
                 android:textColor="@drawable/detailbairro_icons"
                 android:textSize="12dip"
-                android:textStyle="bold" 
-                android:onClick="buttonsClick"/>
-            
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/bairroDetail_alertaEspecialButton"
                 android:layout_width="80dip"
@@ -125,11 +144,11 @@
                 android:drawableTop="@drawable/alerta_especial"
                 android:focusable="true"
                 android:gravity="center"
+                android:onClick="buttonsClick"
                 android:text="@string/bairroDetail_alertaEspecialIcon"
                 android:textColor="@drawable/detailbairro_icons"
                 android:textSize="12dip"
-                android:textStyle="bold" 
-                android:onClick="buttonsClick"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/bairroDetail_emergenciaButton"
@@ -140,12 +159,12 @@
                 android:drawableTop="@drawable/emergencia_icon"
                 android:focusable="true"
                 android:gravity="center"
+                android:onClick="buttonsClick"
                 android:text="@string/bairroDetail_emergenciaIcon"
                 android:textColor="@drawable/detailbairro_icons"
                 android:textSize="12dip"
-                android:textStyle="bold" 
-                android:onClick="buttonsClick"/>
-            
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/bairroDetail_meuDestinoButton"
                 android:layout_width="80dip"
@@ -155,13 +174,12 @@
                 android:drawableTop="@drawable/meu_destino"
                 android:focusable="true"
                 android:gravity="center"
+                android:onClick="buttonsClick"
                 android:text="@string/bairroDetail_meuDestinoIcon"
                 android:textColor="@drawable/detailbairro_icons"
                 android:textSize="12dip"
-                android:textStyle="bold" 
-                android:onClick="buttonsClick"/>
-            </LinearLayout>
-        
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 
     <br.com.i4people.safecity.component.Toolbar

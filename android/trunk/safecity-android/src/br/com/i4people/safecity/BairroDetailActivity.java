@@ -5,7 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.EditText;
+import android.widget.TextView;
 import br.com.i4people.safecity.activity.AlertaEspecialActivity;
 import br.com.i4people.safecity.activity.BairroListaActivity;
 import br.com.i4people.safecity.activity.DicaActivity;
@@ -32,6 +34,14 @@ public class BairroDetailActivity extends Activity {
 		setContentView(R.layout.bairrodetail);
 		
 		bairroBundle = getIntent().getExtras().getBundle(BAIRRO);
+		
+		TextView anuncie = (TextView) findViewById(R.id.bairroDetail_anuncieAqui);
+		anuncie.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				CallUtils.makeCall(BairroDetailActivity.this, "01135964736");
+			}
+		});
 		
 		Toolbar toolbar = (Toolbar) this.findViewById(R.id.bairroDetail_toolbar);
 		toolbar.setBairro(bairroBundle);
@@ -72,6 +82,13 @@ public class BairroDetailActivity extends Activity {
 		intent.putExtra(BAIRRO, bairroBundle);
 		
 		startActivity(intent);
+	}
+	
+	public void anuncieAquiCall(View view) {
+		Log.d(TAG, "anuncieAqui");
+		if (view.getId() == R.id.bairroDetail_anuncieAqui) {
+			
+		}
 	}
 	
 }

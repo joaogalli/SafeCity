@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.i4people.safecity.sp"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -25,7 +25,7 @@
             android:value="20000" />
         <meta-data
             android:name="@string/meta_host"
-            android:value="http://186.202.69.109:8080" />
+            android:value="http://177.71.255.174:8080" />
 
         <activity
             android:name="br.com.i4people.safecity.SplashScreenActivity"

@@ -37,11 +37,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>2.0.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>2.0.1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile</key>
@@ -100,6 +100,6 @@ www.i4people.com.br</string>
 	<key>city</key>
 	<string>${city}</string>
 	<key>host</key>
-	<string>http://186.202.69.109:8080</string>
+	<string>http://177.71.255.174:8080</string>
 </dict>
 </plist>

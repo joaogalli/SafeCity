@@ -11,7 +11,7 @@
 
 @implementation AlertaEspecialDetailViewController
 
-@synthesize textoTextView;
+@synthesize textoTextView, formBackgroundImage;
 
 - (id) initWithBairro: (NSDictionary*) bairroDic {
 	self = [super init];

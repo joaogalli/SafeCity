@@ -3,4 +3,6 @@
     <color name="bairroDetail_label">#000000</color>
     <color name="black">#000</color>
     <color name="white">#FFF</color>
+    <color name="orange">#FFC032</color>
+    <color name="bairrodetail_anuncieaqui_fontcolor">#D5221A</color>
 </resources>

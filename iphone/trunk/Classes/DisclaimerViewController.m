@@ -11,6 +11,8 @@
 
 @implementation DisclaimerViewController
 
+@synthesize formBackgroundImage;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

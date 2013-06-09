@@ -17,7 +17,7 @@
 @implementation BairroDetailViewController
 
 @synthesize locationBairro;
-@synthesize nomeLabel, delito1Label, delito2Label;
+@synthesize nomeLabel, delito1Label, delito2Label, formBackgroundImage;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -87,11 +87,12 @@
     [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh 
                                                   target:self action:@selector(searchMyLocation)];
     
+    NSString *backgroundImagePath = [NSString stringWithFormat: @"background-tela-%@.png", [Preferences get: @"city"]];
+    NSLog(@"Imagem: %@", backgroundImagePath);
+    
     // Set Form Background Image
-    formBackgroundImage.image = [UIImage imageNamed: 
-                                 [NSString stringWithFormat: @"background-tela-%@.png", [Preferences get: @"city"]]];
-
-    // Do any additional setup after loading the view from its nib.
+    UIImage *image = [UIImage imageNamed: backgroundImagePath];
+    formBackgroundImage.image = image;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
